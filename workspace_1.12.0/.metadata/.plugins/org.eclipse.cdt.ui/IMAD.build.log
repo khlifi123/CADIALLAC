@@ -1,0 +1,10 @@
+16:35:09 **** Incremental Build of configuration Debug for project IMAD ****
+make -j8 all 
+arm-none-eabi-size   IMAD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19224	    120	   1680	  21024	   5220	IMAD.elf
+Finished building: default.size.stdout
+ 
+
+16:35:10 Build Finished. 0 errors, 0 warnings. (took 538ms)
+

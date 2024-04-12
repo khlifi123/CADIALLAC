@@ -1,0 +1,308 @@
+2024-01-24 10:31:30,278 [INFO] Gpio:273 - dependency for GPIO [ADC1, ADC2, RCC, TIM1, TIM2, TIM3, TIM8, TIM9, USART1]
+2024-01-24 10:31:31,133 [INFO] Gpio:273 - dependency for GPIO [ADC1, ADC2, RCC, TIM1, TIM2, TIM3, TIM8, TIM9, USART1]
+2024-01-24 10:32:33,965 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 723907168 Bytes (1061158912)
+2024-01-24 10:32:35,376 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 728183472 Bytes (1061158912)
+2024-01-24 10:32:38,077 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 760992488 Bytes (1061158912)
+2024-01-24 10:32:38,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2024-01-24 10:32:38,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2024-01-24 10:32:38,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2024-01-24 10:32:38,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-01-24 10:32:38,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-01-24 10:32:38,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-01-24 10:32:38,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-01-24 10:32:38,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-01-24 10:32:38,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-01-24 10:32:38,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-01-24 10:32:38,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2024-01-24 10:32:38,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2024-01-24 10:32:38,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-01-24 10:32:38,322 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : hdmavalue: null
+2024-01-24 10:32:38,329 [INFO] Argument:321 - 	 sub Args: 
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : Initvalue: null
+2024-01-24 10:32:38,329 [INFO] Argument:321 - 	 sub Args: 
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2024-01-24 10:32:38,329 [INFO] Argument:319 - Argument : Lockvalue: null
+2024-01-24 10:32:38,329 [INFO] Argument:329 - Argument : Lockvalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:319 - Argument : Statevalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:329 - Argument : Statevalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:319 - Argument : Parentvalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:329 - Argument : Parentvalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2024-01-24 10:32:38,330 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : hdmavalue: null
+2024-01-24 10:32:38,337 [INFO] Argument:321 - 	 sub Args: 
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream2
+2024-01-24 10:32:38,337 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream2
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : Initvalue: null
+2024-01-24 10:32:38,337 [INFO] Argument:321 - 	 sub Args: 
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_1
+2024-01-24 10:32:38,337 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_1
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-01-24 10:32:38,337 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-01-24 10:32:38,337 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-01-24 10:32:38,337 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-01-24 10:32:38,337 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-01-24 10:32:38,337 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2024-01-24 10:32:38,337 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-01-24 10:32:38,337 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-01-24 10:32:38,337 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-01-24 10:32:38,337 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:319 - Argument : Lockvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:329 - Argument : Lockvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:319 - Argument : Statevalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:329 - Argument : Statevalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:319 - Argument : Parentvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:329 - Argument : Parentvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2024-01-24 10:32:38,338 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2024-01-24 10:32:38,643 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\MXTmpFiles\license.tmp_save
+2024-01-24 10:32:38,786 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\MXTmpFiles\license.tmp
+2024-01-24 10:32:38,860 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\gpio.c_save
+2024-01-24 10:32:38,961 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\gpio.c
+2024-01-24 10:32:38,985 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\gpio.h_save
+2024-01-24 10:32:39,070 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\gpio.h
+2024-01-24 10:32:40,200 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\adc.c_save
+2024-01-24 10:32:40,348 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\adc.c
+2024-01-24 10:32:40,377 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\adc.h_save
+2024-01-24 10:32:40,465 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\adc.h
+2024-01-24 10:32:40,504 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\MXTmpFiles\cortex.tmp_save
+2024-01-24 10:32:40,569 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\MXTmpFiles\cortex.tmp
+2024-01-24 10:32:40,658 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\dma.c_save
+2024-01-24 10:32:40,751 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\dma.c
+2024-01-24 10:32:40,773 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\dma.h_save
+2024-01-24 10:32:40,856 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\dma.h
+2024-01-24 10:32:40,900 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\tim.c_save
+2024-01-24 10:32:41,114 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\tim.c
+2024-01-24 10:32:41,137 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\tim.h_save
+2024-01-24 10:32:41,227 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\tim.h
+2024-01-24 10:32:41,271 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\usart.c_save
+2024-01-24 10:32:41,367 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\usart.c
+2024-01-24 10:32:41,383 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\usart.h_save
+2024-01-24 10:32:41,459 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\usart.h
+2024-01-24 10:32:41,510 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\stm32f7xx_it.c_save
+2024-01-24 10:32:41,713 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\stm32f7xx_it.c
+2024-01-24 10:32:41,743 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\stm32f7xx_it.h_save
+2024-01-24 10:32:41,862 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\stm32f7xx_it.h
+2024-01-24 10:32:41,925 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\stm32f7xx_hal_msp.c_save
+2024-01-24 10:32:42,071 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\stm32f7xx_hal_msp.c
+2024-01-24 10:32:42,094 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\MXTmpFiles\system.tmp_save
+2024-01-24 10:32:42,167 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\MXTmpFiles\system.tmp
+2024-01-24 10:32:42,241 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\stm32f7xx_hal_conf.h_save
+2024-01-24 10:32:42,345 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\stm32f7xx_hal_conf.h
+2024-01-24 10:32:42,432 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\main.h_save
+2024-01-24 10:32:42,563 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\main.h
+2024-01-24 10:32:42,607 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\main.c_save
+2024-01-24 10:32:42,726 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\main.c
+2024-01-24 10:32:44,685 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 1430mS.
+2024-01-24 10:32:44,691 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-01-24 10:32:44,959 [INFO] ConfigFileManager:1483 - The Die is : DIE449
+2024-01-24 10:32:47,916 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3225mS.
+2024-01-24 10:32:47,920 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 3mS.
+2024-01-24 10:32:47,928 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-24 10:33:23,373 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 701101552 Bytes (1069547520)
+2024-01-24 10:33:24,748 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 728357736 Bytes (1069547520)
+2024-01-24 10:33:25,891 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 772934304 Bytes (1069547520)
+2024-01-24 10:33:26,149 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2024-01-24 10:33:26,149 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2024-01-24 10:33:26,149 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2024-01-24 10:33:26,149 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-01-24 10:33:26,149 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-01-24 10:33:26,149 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-01-24 10:33:26,149 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-01-24 10:33:26,149 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-01-24 10:33:26,149 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-01-24 10:33:26,149 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-01-24 10:33:26,149 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2024-01-24 10:33:26,149 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2024-01-24 10:33:26,150 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-01-24 10:33:26,153 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : hdmavalue: null
+2024-01-24 10:33:26,161 [INFO] Argument:321 - 	 sub Args: 
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2024-01-24 10:33:26,161 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : Initvalue: null
+2024-01-24 10:33:26,161 [INFO] Argument:321 - 	 sub Args: 
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2024-01-24 10:33:26,161 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-01-24 10:33:26,161 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-01-24 10:33:26,161 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-01-24 10:33:26,161 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-01-24 10:33:26,161 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-01-24 10:33:26,161 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2024-01-24 10:33:26,161 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2024-01-24 10:33:26,161 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-01-24 10:33:26,161 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2024-01-24 10:33:26,161 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2024-01-24 10:33:26,161 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2024-01-24 10:33:26,161 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:319 - Argument : Lockvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:329 - Argument : Lockvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:319 - Argument : Statevalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:329 - Argument : Statevalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:319 - Argument : Parentvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:329 - Argument : Parentvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2024-01-24 10:33:26,162 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2024-01-24 10:33:26,169 [INFO] Argument:319 - Argument : hdmavalue: null
+2024-01-24 10:33:26,169 [INFO] Argument:321 - 	 sub Args: 
+2024-01-24 10:33:26,170 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream2
+2024-01-24 10:33:26,170 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream2
+2024-01-24 10:33:26,170 [INFO] Argument:319 - Argument : Initvalue: null
+2024-01-24 10:33:26,170 [INFO] Argument:321 - 	 sub Args: 
+2024-01-24 10:33:26,170 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_1
+2024-01-24 10:33:26,170 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_1
+2024-01-24 10:33:26,170 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-01-24 10:33:26,170 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-01-24 10:33:26,170 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-01-24 10:33:26,170 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-01-24 10:33:26,170 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-01-24 10:33:26,170 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-01-24 10:33:26,170 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-01-24 10:33:26,170 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-01-24 10:33:26,170 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-01-24 10:33:26,170 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-01-24 10:33:26,170 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2024-01-24 10:33:26,170 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2024-01-24 10:33:26,170 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-01-24 10:33:26,170 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-01-24 10:33:26,170 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-01-24 10:33:26,170 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-01-24 10:33:26,170 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:319 - Argument : Lockvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:329 - Argument : Lockvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:319 - Argument : Statevalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:329 - Argument : Statevalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:319 - Argument : Parentvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:329 - Argument : Parentvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2024-01-24 10:33:26,171 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2024-01-24 10:33:26,432 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\MXTmpFiles\license.tmp_save
+2024-01-24 10:33:26,506 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\MXTmpFiles\license.tmp
+2024-01-24 10:33:26,621 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\gpio.c_save
+2024-01-24 10:33:26,774 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\gpio.c
+2024-01-24 10:33:26,801 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\gpio.h_save
+2024-01-24 10:33:26,901 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\gpio.h
+2024-01-24 10:33:27,816 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\adc.c_save
+2024-01-24 10:33:27,999 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\adc.c
+2024-01-24 10:33:28,022 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\adc.h_save
+2024-01-24 10:33:28,120 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\adc.h
+2024-01-24 10:33:28,156 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\MXTmpFiles\cortex.tmp_save
+2024-01-24 10:33:28,235 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\MXTmpFiles\cortex.tmp
+2024-01-24 10:33:28,321 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\dma.c_save
+2024-01-24 10:33:28,407 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\dma.c
+2024-01-24 10:33:28,426 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\dma.h_save
+2024-01-24 10:33:28,508 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\dma.h
+2024-01-24 10:33:28,550 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\tim.c_save
+2024-01-24 10:33:28,726 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\tim.c
+2024-01-24 10:33:28,745 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\tim.h_save
+2024-01-24 10:33:28,841 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\tim.h
+2024-01-24 10:33:28,889 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\usart.c_save
+2024-01-24 10:33:28,989 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\usart.c
+2024-01-24 10:33:29,005 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\usart.h_save
+2024-01-24 10:33:29,080 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\usart.h
+2024-01-24 10:33:29,123 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\stm32f7xx_it.c_save
+2024-01-24 10:33:29,268 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\stm32f7xx_it.c
+2024-01-24 10:33:29,286 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\stm32f7xx_it.h_save
+2024-01-24 10:33:29,373 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\stm32f7xx_it.h
+2024-01-24 10:33:29,415 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\stm32f7xx_hal_msp.c_save
+2024-01-24 10:33:29,522 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\stm32f7xx_hal_msp.c
+2024-01-24 10:33:29,534 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\MXTmpFiles\system.tmp_save
+2024-01-24 10:33:29,602 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\MXTmpFiles\system.tmp
+2024-01-24 10:33:29,644 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\stm32f7xx_hal_conf.h_save
+2024-01-24 10:33:29,754 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\stm32f7xx_hal_conf.h
+2024-01-24 10:33:29,811 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\main.h_save
+2024-01-24 10:33:29,901 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Inc\main.h
+2024-01-24 10:33:29,926 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\main.c_save
+2024-01-24 10:33:30,045 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\CADILLAC_V2\Core\Src\main.c
+2024-01-24 10:33:31,625 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 1130mS.
+2024-01-24 10:33:31,632 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-01-24 10:33:32,115 [INFO] ConfigFileManager:1483 - The Die is : DIE449
+2024-01-24 10:33:34,836 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3204mS.
+2024-01-24 10:33:34,839 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 3mS.
+2024-01-24 10:33:34,850 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.

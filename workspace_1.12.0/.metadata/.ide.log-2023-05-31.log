@@ -1,0 +1,1640 @@
+2023-05-31 09:08:43,430 [INFO] Activator:176 - 
+
+
+2023-05-31 09:08:43,445 [INFO] Activator:177 - !SESSION log4j initialized
+2023-05-31 09:08:52,002 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-05-31 09:09:15,205 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-05-31 09:09:15,215 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-05-31 09:09:15,220 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-05-31 11:02:09,389 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431
+2023-05-31 11:02:09,414 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\/mcu/
+2023-05-31 11:02:09,414 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\/plugins/boardmanager/
+2023-05-31 11:02:09,416 [WARN] ApiDb:259 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\/plugins/mcufinder/images/
+2023-05-31 11:02:09,433 [INFO] ApiDb:250 - Set database path to: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder//mcu/
+2023-05-31 11:02:09,435 [INFO] DbMcusAds:125 - Set database path to: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder//mcu/
+2023-05-31 11:02:09,527 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-05-31 11:02:09,671 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-05-31 11:02:09,818 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\/mcu/
+2023-05-31 11:02:09,818 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\/plugins/boardmanager/
+2023-05-31 11:02:09,818 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\/plugins/mcufinder/images/
+2023-05-31 11:02:09,818 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder/ => C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder
+2023-05-31 11:02:09,818 [INFO] ApiDb:250 - Set database path to: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder//mcu/
+2023-05-31 11:02:09,818 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder/ => C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder
+2023-05-31 11:02:09,818 [INFO] DbMcusAds:125 - Set database path to: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder//mcu/
+2023-05-31 11:02:09,818 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder/ => C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder
+2023-05-31 11:02:09,818 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder/ => C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder
+2023-05-31 11:02:09,819 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-05-31 11:02:09,922 [INFO] MainPanel:253 - HeapMemory: 503316480
+2023-05-31 11:02:10,038 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\/mcu/
+2023-05-31 11:02:10,039 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\/plugins/boardmanager/
+2023-05-31 11:02:10,039 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\/plugins/mcufinder/images/
+2023-05-31 11:02:10,040 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder/ => C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder
+2023-05-31 11:02:10,040 [INFO] ApiDb:250 - Set database path to: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder//mcu/
+2023-05-31 11:02:10,040 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder/ => C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder
+2023-05-31 11:02:10,040 [INFO] DbMcusAds:125 - Set database path to: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder//mcu/
+2023-05-31 11:02:10,040 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder/ => C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder
+2023-05-31 11:02:10,040 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder/ => C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder
+2023-05-31 11:02:10,040 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-05-31 11:02:10,068 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431
+2023-05-31 11:02:10,069 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2023-05-31 11:02:10,070 [INFO] PluginManage:310 - Check plugin analytics
+2023-05-31 11:02:10,276 [INFO] AnalyticsPlugin:253 - Accepted Software Licenses: 
+2023-05-31 11:02:10,276 [INFO] AnalyticsPlugin:255 - Accepted CMSIS Pack Licenses: 
+2023-05-31 11:02:10,277 [INFO] AnalyticsPlugin:257 - Accepted Firmware Licenses: FW.F4.1.27.0
+2023-05-31 11:02:10,284 [INFO] PluginManage:359 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-05-31 11:02:10,285 [INFO] PluginManage:310 - Check plugin cadmodel
+2023-05-31 11:02:10,307 [INFO] CADModel:105 - Init CAD model plugin
+2023-05-31 11:02:10,308 [INFO] PluginManage:359 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-05-31 11:02:10,308 [INFO] PluginManage:310 - Check plugin clock
+2023-05-31 11:02:10,336 [INFO] PluginManage:359 - Loaded plugin clock (category:base,tabindex:2)
+2023-05-31 11:02:10,337 [INFO] PluginManage:310 - Check plugin ddr
+2023-05-31 11:02:10,340 [INFO] PluginManage:359 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-05-31 11:02:10,340 [INFO] PluginManage:310 - Check plugin filemanager
+2023-05-31 11:02:10,478 [INFO] PluginManage:359 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-05-31 11:02:10,478 [INFO] PluginManage:310 - Check plugin ipmanager
+2023-05-31 11:02:10,498 [INFO] PluginManage:359 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-05-31 11:02:10,498 [INFO] PluginManage:310 - Check plugin lpbam
+2023-05-31 11:02:10,518 [INFO] PluginManage:359 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-05-31 11:02:10,518 [INFO] PluginManage:310 - Check plugin pinoutandconfiguration
+2023-05-31 11:02:10,538 [INFO] PluginManage:359 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-05-31 11:02:10,538 [INFO] PluginManage:310 - Check plugin pinoutconfig
+2023-05-31 11:02:10,643 [WARN] SupportedApi:132 - Cannot load RTOS API schema: s4s-elt-must-match.1: The content of 'definitions' must match (annotation?, (simpleType | complexType)?, (unique | key | keyref)*)). A problem was found starting at: attribute.
+2023-05-31 11:02:10,831 [INFO] PluginManage:359 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-05-31 11:02:10,832 [INFO] PluginManage:310 - Check plugin power
+2023-05-31 11:02:10,875 [INFO] PluginManage:359 - Loaded plugin power (category:power,tabindex:4)
+2023-05-31 11:02:10,875 [INFO] PluginManage:310 - Check plugin projectmanager
+2023-05-31 11:02:10,900 [INFO] PluginManage:359 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-05-31 11:02:10,900 [INFO] PluginManage:310 - Check plugin thirdparty
+2023-05-31 11:02:11,177 [INFO] PluginManage:359 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-05-31 11:02:11,178 [INFO] PluginManage:310 - Check plugin tools
+2023-05-31 11:02:11,177 [WARN] IntegrityCheckThread:84 - waiting for thirdparty lock release [integrity check]
+2023-05-31 11:02:11,178 [INFO] IntegrityCheckThread:86 - entering critical section [integrity check]
+2023-05-31 11:02:11,182 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-05-31 11:02:11,190 [INFO] PluginManage:359 - Loaded plugin tools (category:base,tabindex:7)
+2023-05-31 11:02:11,190 [INFO] PluginManage:310 - Check plugin tutovideos
+2023-05-31 11:02:11,435 [INFO] PluginManage:359 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-05-31 11:02:11,435 [INFO] PluginManage:310 - Check plugin updater
+2023-05-31 11:02:11,453 [INFO] PluginManage:359 - Loaded plugin updater (category:base,tabindex:12)
+2023-05-31 11:02:11,453 [INFO] PluginManage:283 - PluginManage : Loaded plugins [15]
+2023-05-31 11:02:11,795 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-05-31 11:02:11,910 [INFO] CADModel:165 - CPN selected for project level
+2023-05-31 11:02:11,910 [INFO] CADModel:114 - Register for checkConnection events
+2023-05-31 11:02:11,943 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:11,943 [INFO] PluginManager:220 - loadIPPluginJar : add adc
+2023-05-31 11:02:11,955 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:11,955 [INFO] PluginManager:220 - loadIPPluginJar : add aes
+2023-05-31 11:02:11,968 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:11,968 [INFO] PluginManager:220 - loadIPPluginJar : add can
+2023-05-31 11:02:11,976 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:11,977 [INFO] PluginManager:220 - loadIPPluginJar : add comp
+2023-05-31 11:02:11,987 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:11,987 [INFO] PluginManager:220 - loadIPPluginJar : add cryp
+2023-05-31 11:02:11,997 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:11,997 [INFO] PluginManager:220 - loadIPPluginJar : add dfsdm
+2023-05-31 11:02:12,015 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,016 [INFO] PluginManager:220 - loadIPPluginJar : add dma
+2023-05-31 11:02:12,032 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,032 [INFO] PluginManager:220 - loadIPPluginJar : add dma3
+2023-05-31 11:02:12,041 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,041 [INFO] PluginManager:220 - loadIPPluginJar : add fatfs
+2023-05-31 11:02:12,057 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,057 [INFO] PluginManager:220 - loadIPPluginJar : add fmc
+2023-05-31 11:02:12,080 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,080 [INFO] PluginManager:220 - loadIPPluginJar : add freertos
+2023-05-31 11:02:12,089 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,089 [INFO] PluginManager:220 - loadIPPluginJar : add genericplugin
+2023-05-31 11:02:12,104 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,104 [INFO] PluginManager:220 - loadIPPluginJar : add gfxmmu
+2023-05-31 11:02:12,122 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,122 [INFO] PluginManager:220 - loadIPPluginJar : add gic
+2023-05-31 11:02:12,142 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,142 [INFO] PluginManager:220 - loadIPPluginJar : add gpio
+2023-05-31 11:02:12,160 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,160 [INFO] PluginManager:220 - loadIPPluginJar : add gtzc
+2023-05-31 11:02:12,171 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,171 [INFO] PluginManager:220 - loadIPPluginJar : add hash
+2023-05-31 11:02:12,187 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,187 [INFO] PluginManager:220 - loadIPPluginJar : add i2c
+2023-05-31 11:02:12,200 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,200 [INFO] PluginManager:220 - loadIPPluginJar : add i2s
+2023-05-31 11:02:12,215 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,215 [INFO] PluginManager:220 - loadIPPluginJar : add i3c
+2023-05-31 11:02:12,233 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,234 [INFO] PluginManager:220 - loadIPPluginJar : add ipddr
+2023-05-31 11:02:12,257 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,257 [INFO] PluginManager:220 - loadIPPluginJar : add linkedlist
+2023-05-31 11:02:12,270 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,271 [INFO] PluginManager:220 - loadIPPluginJar : add lorawan
+2023-05-31 11:02:12,282 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,283 [INFO] PluginManager:220 - loadIPPluginJar : add ltdc
+2023-05-31 11:02:12,303 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,303 [INFO] PluginManager:220 - loadIPPluginJar : add mdma
+2023-05-31 11:02:12,318 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,318 [INFO] PluginManager:220 - loadIPPluginJar : add nvic
+2023-05-31 11:02:12,330 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,330 [INFO] PluginManager:220 - loadIPPluginJar : add opamp
+2023-05-31 11:02:12,349 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,349 [INFO] PluginManager:220 - loadIPPluginJar : add openamp
+2023-05-31 11:02:12,364 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,364 [INFO] PluginManager:220 - loadIPPluginJar : add pdm2pcm
+2023-05-31 11:02:12,383 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,387 [INFO] PluginManager:220 - loadIPPluginJar : add plateformsettings
+2023-05-31 11:02:12,396 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,396 [INFO] PluginManager:220 - loadIPPluginJar : add quadspi
+2023-05-31 11:02:12,412 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,412 [INFO] PluginManager:220 - loadIPPluginJar : add resmgrutility
+2023-05-31 11:02:12,425 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,425 [INFO] PluginManager:220 - loadIPPluginJar : add sai
+2023-05-31 11:02:12,439 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,439 [INFO] PluginManager:220 - loadIPPluginJar : add spi
+2023-05-31 11:02:12,456 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,456 [INFO] PluginManager:220 - loadIPPluginJar : add stm32_wpan
+2023-05-31 11:02:12,466 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,466 [INFO] PluginManager:220 - loadIPPluginJar : add tim
+2023-05-31 11:02:12,482 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,482 [INFO] PluginManager:220 - loadIPPluginJar : add touchsensing
+2023-05-31 11:02:12,492 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,492 [INFO] PluginManager:220 - loadIPPluginJar : add tracer_emb
+2023-05-31 11:02:12,501 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,501 [INFO] PluginManager:220 - loadIPPluginJar : add ts
+2023-05-31 11:02:12,509 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,509 [INFO] PluginManager:220 - loadIPPluginJar : add tsc
+2023-05-31 11:02:12,518 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,518 [INFO] PluginManager:220 - loadIPPluginJar : add ucpd
+2023-05-31 11:02:12,531 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,531 [INFO] PluginManager:220 - loadIPPluginJar : add usart
+2023-05-31 11:02:12,546 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:12,546 [INFO] PluginManager:220 - loadIPPluginJar : add usbx
+2023-05-31 11:02:12,706 [INFO] CADModel:165 - CPN selected for project level
+2023-05-31 11:02:12,706 [INFO] CADModel:114 - Register for checkConnection events
+2023-05-31 11:02:12,706 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-31 11:02:12,706 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2023-05-31 11:02:12,860 [INFO] CADModel:165 - CPN selected for project level
+2023-05-31 11:02:12,861 [INFO] CADModel:114 - Register for checkConnection events
+2023-05-31 11:02:12,861 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-31 11:02:12,861 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2023-05-31 11:02:12,865 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-31 11:02:13,080 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-31 11:02:13,088 [INFO] DbMcusAds:53 - JSON generation date=Tue Mar 07 09:50:54 CET 2023 (1678179054945)
+2023-05-31 11:02:13,088 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-31 11:02:13,169 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2023-05-31 11:02:13,311 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-31 11:02:13,313 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-31 11:02:13,313 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-31 11:02:13,313 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2023-05-31 11:02:13,314 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-31 11:02:13,389 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-05-31 11:02:13,393 [INFO] Updater:1056 - Updater Version found : 6.8.1
+2023-05-31 11:02:13,414 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431
+2023-05-31 11:02:13,717 [INFO] MainUpdater:2854 - connection check result : 10
+2023-05-31 11:02:13,717 [INFO] MainUpdater:283 - Updater Check For Update Now.
+2023-05-31 11:02:13,718 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.81
+2023-05-31 11:02:13,912 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-05-31 11:02:13,951 [INFO] MainUpdater:2854 - connection check result : 10
+2023-05-31 11:02:13,953 [INFO] MainUpdater:2854 - connection check result : 10
+2023-05-31 11:02:14,033 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-05-31 11:02:14,033 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.81
+2023-05-31 11:02:14,033 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-05-31 11:02:14,476 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2023-05-31 11:02:14,514 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2023-05-31 11:02:14,530 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SMBUS.2.1.0
+2023-05-31 11:02:14,540 [WARN] PackLoader:240 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.6.0
+2023-05-31 11:02:14,567 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2023-05-31 11:02:14,655 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.6.0
+2023-05-31 11:02:14,941 [ERROR] RealEvaluatedCondition:428 - Found unsupported composite condition: CLASS='Data Exchange' GROUP='STM32_MetaDataManager'
+2023-05-31 11:02:14,941 [ERROR] RealEvaluatedCondition:428 - Found unsupported composite condition: CLASS='Data Exchange' GROUP='STM32_MetaDataManager'
+2023-05-31 11:02:14,943 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENV1.4.3.0
+2023-05-31 11:02:14,958 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.0
+2023-05-31 11:02:14,969 [ERROR] RealEvaluatedCondition:428 - Found unsupported composite condition: GROUP='STM32_MetaDataManager' CLASS='Data Exchange'
+2023-05-31 11:02:14,969 [ERROR] RealEvaluatedCondition:428 - Found unsupported composite condition: CLASS='Data Exchange' GROUP='STM32_MetaDataManager'
+2023-05-31 11:02:14,970 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENV1.4.3.1
+2023-05-31 11:02:14,983 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.1
+2023-05-31 11:02:14,998 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.4
+2023-05-31 11:02:15,017 [WARN] PackLoader:240 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.3
+2023-05-31 11:02:15,035 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.2.0.0
+2023-05-31 11:02:15,085 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-31 11:02:15,086 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-31 11:02:15,092 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.1.0
+2023-05-31 11:02:15,093 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-31 11:02:15,094 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-31 11:02:15,095 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-31 11:02:15,095 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-31 11:02:15,095 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-31 11:02:15,141 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.3.0.0
+2023-05-31 11:02:15,163 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2023-05-31 11:02:15,178 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2023-05-31 11:02:15,214 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-05-31 11:02:15,215 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.2.0.0
+2023-05-31 11:02:15,216 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-05-31 11:02:15,216 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-05-31 11:02:15,216 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-05-31 11:02:15,235 [WARN] PackLoader:240 - Cannot read IP mode file for WES.I-CUBE-Cesium.1.3.0
+2023-05-31 11:02:15,258 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2023-05-31 11:02:15,274 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2023-05-31 11:02:15,287 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2023-05-31 11:02:15,301 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.0
+2023-05-31 11:02:15,315 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.0.1
+2023-05-31 11:02:15,325 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.3
+2023-05-31 11:02:15,333 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.4
+2023-05-31 11:02:15,344 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2023-05-31 11:02:15,370 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.1.0
+2023-05-31 11:02:15,404 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2023-05-31 11:02:15,415 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.1
+2023-05-31 11:02:15,441 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2023-05-31 11:02:15,456 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.3.0.0
+2023-05-31 11:02:15,488 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.2.0.0
+2023-05-31 11:02:15,507 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.3.0
+2023-05-31 11:02:15,531 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2023-05-31 11:02:15,555 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2023-05-31 11:02:15,578 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2023-05-31 11:02:15,591 [WARN] PackLoader:240 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2023-05-31 11:02:15,601 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2023-05-31 11:02:15,623 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.1.1.0
+2023-05-31 11:02:15,673 [WARN] PackLoader:240 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.1
+2023-05-31 11:02:15,740 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.2.0.0
+2023-05-31 11:02:15,741 [INFO] ThirdParty:978 - Integrity check success = true
+2023-05-31 11:02:15,742 [INFO] IntegrityCheckThread:100 - exiting critical section [integrity check]
+2023-05-31 11:02:15,742 [INFO] IntegrityCheckThread:103 - End integrity checks thread
+2023-05-31 11:02:15,742 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-05-31 11:02:15,743 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-05-31 11:02:15,748 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-05-31 11:02:15,756 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 460583032 Bytes (503316480)
+2023-05-31 11:02:15,764 [INFO] MicroXplorer:468 - Change Database Path : C:/Users/m-ali.khlifi-ext/.stm32cubemx/databases/DB.6.0.80/db/
+2023-05-31 11:02:15,764 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.80
+2023-05-31 11:02:26,414 [INFO] OpenFileManager:308 - Change cursor
+2023-05-31 11:02:26,461 [INFO] Mcu:1937 - Initializing MCU STM32F446R(C-E)Tx STM32F446RETx STM32F446RET6
+2023-05-31 11:02:28,371 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-05-31 11:02:29,339 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-05-31 11:02:29,339 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-05-31 11:02:29,339 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-05-31 11:02:29,340 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-05-31 11:02:29,340 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-05-31 11:02:29,362 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,362 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,362 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,362 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,362 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,362 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,362 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,362 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,362 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,363 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,363 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,363 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,363 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,363 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,363 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,363 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,363 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,363 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,363 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,363 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,364 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-31 11:02:29,401 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-05-31 11:02:29,705 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-05-31 11:02:29,728 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC1) currently not set
+2023-05-31 11:02:29,728 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Channel) has Id (ADC1) currently not set
+2023-05-31 11:02:29,728 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC1) currently not set
+2023-05-31 11:02:29,728 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC1) currently not set
+2023-05-31 11:02:29,729 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC1) currently not set
+2023-05-31 11:02:29,729 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC1) currently not set
+2023-05-31 11:02:29,729 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC1) currently not set
+2023-05-31 11:02:29,729 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC1) currently not set
+2023-05-31 11:02:29,730 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC1) currently not set
+2023-05-31 11:02:29,730 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (ADC1) currently not set
+2023-05-31 11:02:29,730 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (TIM2_CH1) currently not set
+2023-05-31 11:02:29,730 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Channel) has Id (TIM2_CH1) currently not set
+2023-05-31 11:02:29,730 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (TIM2_CH1) currently not set
+2023-05-31 11:02:29,730 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (TIM2_CH1) currently not set
+2023-05-31 11:02:29,730 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (TIM2_CH1) currently not set
+2023-05-31 11:02:29,730 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (TIM2_CH1) currently not set
+2023-05-31 11:02:29,730 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (TIM2_CH1) currently not set
+2023-05-31 11:02:29,731 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (TIM2_CH1) currently not set
+2023-05-31 11:02:29,731 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (TIM2_CH1) currently not set
+2023-05-31 11:02:29,731 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (TIM2_CH1) currently not set
+2023-05-31 11:02:29,737 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2023-05-31 11:02:29,779 [WARN] IP:2113 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:02:29,779 [WARN] IP:2113 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:02:29,779 [WARN] IP:2113 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:02:30,124 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 566168088 Bytes (695205888)
+2023-05-31 11:02:30,281 [INFO] ApiDb:581 - Connected to CubeFinder SQLite database (C:\Users\m-ali.khlifi-ext\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2023-05-31 11:02:30,380 [INFO] ApiDb:668 - CubeFinder database Data Model version=2.1
+2023-05-31 11:02:30,380 [INFO] ApiDb:669 - CubeFinder database Configuration version=3.0.35
+2023-05-31 11:02:30,381 [INFO] ApiDb:670 - CubeFinder database generation date=2023-05-12 (1683877179)
+2023-05-31 11:02:30,381 [INFO] ApiDb:671 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V2.0.0, FP-SNS-FLIGHT1_V5.0.0, FP-SNS-MOTENV1_V4.3.0, STM32Cube_FW_C0_V1.0.1, STM32Cube_FW_F0_V1.11.4, STM32Cube_FW_F3_V1.11.4, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.1, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H5_V1.0.0, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L0_V1.12.2, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.2.0, STM32Cube_FW_WBA_V1.0.0, STM32Cube_FW_WBA_V1.0.0RC1, STM32Cube_FW_WBA_V1.0.0RC3, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WB_V1.16.0, STM32Cube_FW_WB_V1.16.0RC2, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V2.0.0, X-CUBE-AZRTOS-H7_V3.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.1.0, X-CUBE-AZRTOS-WB_V1.1.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.4, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V2.0.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-FREERTOS_V1.0.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-MEMS1_V9.6.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2023-05-31 11:02:32,734 [INFO] ApiDb:240 - Found 297 in-development CPN: [B-G473E-ZEST1S, B-WB1M-WPAN1, B-WL5M-SUBG1, NUCLEO-C031C6, NUCLEO-H503RB, NUCLEO-H563ZI, NUCLEO-U545RE-Q, NUCLEO-U5A5ZJ-Q, NUCLEO-WBA52CG, STEVAL-PROTEUS1, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32H503CBT6, STM32H503CBU6, STM32H503EBY6TR, STM32H503KBU6, STM32H503RBT6, STM32H562AGI6, STM32H562AII6, STM32H562IGK6, STM32H562IGT6, STM32H562IIK6, STM32H562IIT6, STM32H562RGT6, STM32H562RGV6, STM32H562RIT6, STM32H562RIV6, STM32H562VGT6, STM32H562VIT6, STM32H562ZGT6, STM32H562ZIT6, STM32H563AGI6, STM32H563AII3Q, STM32H563AII6, STM32H563IGK6, STM32H563IGT6, STM32H563IIK3Q, STM32H563IIK6, STM32H563IIT3Q, STM32H563IIT6, STM32H563MIY3QTR, STM32H563RGT6, STM32H563RGV6, STM32H563RIT6, STM32H563RIV6, STM32H563VGT6, STM32H563VIT3Q, STM32H563VIT6, STM32H563ZGT6, STM32H563ZIT3Q, STM32H563ZIT6, STM32H573AII3Q, STM32H573AII6, STM32H573I-DK, STM32H573IIK3Q, STM32H573IIK6, STM32H573IIT3Q, STM32H573IIT6, STM32H573MIY3QTR, STM32H573RIT6, STM32H573RIV6, STM32H573VIT3Q, STM32H573VIT6, STM32H573ZIT3Q, STM32H573ZIT6, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAF7T, STM32MP135FAF7U, STM32MP135FAG7, STM32U535CBT6, STM32U535CBT6Q, STM32U535CBU6, STM32U535CBU6Q, STM32U535CCT6, STM32U535CCT6Q, STM32U535CCU6, STM32U535CCU6Q, STM32U535CET6, STM32U535CET6Q, STM32U535CEU6, STM32U535CEU6Q, STM32U535JEY6QTR, STM32U535NCY6QTR, STM32U535NEY6QTR, STM32U535RBI6, STM32U535RBI6Q, STM32U535RBT6, STM32U535RBT6Q, STM32U535RCI6, STM32U535RCI6Q, STM32U535RCT6, STM32U535RCT6Q, STM32U535REI6, STM32U535REI6Q, STM32U535RET6, STM32U535RET6Q, STM32U535VCI6, STM32U535VCI6Q, STM32U535VCT6, STM32U535VCT6Q, STM32U535VEI6, STM32U535VEI6Q, STM32U535VET6, STM32U535VET6Q, STM32U545CET6, STM32U545CET6Q, STM32U545CEU6, STM32U545CEU6Q, STM32U545JEY6QTR, STM32U545NEY6QTR, STM32U545REI6, STM32U545REI6Q, STM32U545RET6, STM32U545RET6Q, STM32U545VEI6, STM32U545VEI6Q, STM32U545VET6, STM32U545VET6Q, STM32U595AIH6, STM32U595AIH6Q, STM32U595AJH6, STM32U595AJH6Q, STM32U595QII6, STM32U595QII6Q, STM32U595QJI6, STM32U595QJI6Q, STM32U595RIT6, STM32U595RIT6Q, STM32U595RJT6, STM32U595RJT6Q, STM32U595VIT6, STM32U595VIT6Q, STM32U595VJT6, STM32U595VJT6Q, STM32U595ZIT6, STM32U595ZIT6Q, STM32U595ZIY6QTR, STM32U595ZJT6, STM32U595ZJT6Q, STM32U595ZJY6QTR, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U599VIT6Q, STM32U599VJT6, STM32U599VJT6Q, STM32U599ZIT6Q, STM32U599ZIY6QTR, STM32U599ZJT6Q, STM32U599ZJY6QTR, STM32U5A5AJH6, STM32U5A5AJH6Q, STM32U5A5QJI6, STM32U5A5QJI6Q, STM32U5A5RJT6, STM32U5A5RJT6Q, STM32U5A5VJT6, STM32U5A5VJT6Q, STM32U5A5ZJT6, STM32U5A5ZJT6Q, STM32U5A5ZJY6QTR, STM32U5A9BJY6QTR, STM32U5A9J-DK, STM32U5A9NJH6Q, STM32U5A9VJT6Q, STM32U5A9ZJT6Q, STM32U5A9ZJY6QTR, STM32WB1MMCH6, STM32WBA52CEU6, STM32WBA52CEU6T, STM32WBA52CGU6, STM32WBA52CGU6T, STM32WL5MOCH6, STM32WL5MOCH6TR]
+2023-05-31 11:02:32,737 [INFO] DbMcus:216 - Found 3775 MCUs, 3775 are supported
+2023-05-31 11:02:32,739 [INFO] ApiDb:423 - Load user favorites file C:\Users\m-ali.khlifi-ext/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-05-31 11:02:32,739 [INFO] ApiDb:427 - User favorites MCUs=[]
+2023-05-31 11:02:32,740 [INFO] DbMcus:222 - Set 0 / 0 favorites MCUs
+2023-05-31 11:02:33,109 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2023-05-31 11:02:33,110 [INFO] ThirdParty:835 - entering critical section [change project]
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.0
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.4
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-05-31 11:02:33,110 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.1
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.1
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.1
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-05-31 11:02:33,111 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-05-31 11:02:33,112 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-05-31 11:02:33,112 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-05-31 11:02:33,112 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-05-31 11:02:33,113 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-05-31 11:02:33,114 [INFO] ThirdParty:841 - exiting critical section [change project]
+2023-05-31 11:02:33,587 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-05-31 11:02:33,590 [INFO] PinOutPanel:1499 - setPackage(STM32F446RETx,LQFP64)
+2023-05-31 11:02:34,616 [INFO] UtilMem:75 - Before build in PCC Used Memory: 598030848 Bytes (695205888)
+2023-05-31 11:02:35,685 [INFO] UtilMem:75 - After build in PCC Used Memory: 541307008 Bytes (695205888)
+2023-05-31 11:02:35,813 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-05-31 11:02:35,860 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,860 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,860 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,860 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,860 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,861 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,861 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,861 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,863 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,863 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,863 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,863 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,863 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,863 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,864 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,864 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,864 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,865 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,865 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,865 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,866 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,866 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,866 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,867 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,867 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,867 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,868 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,868 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,869 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,869 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,869 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,870 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,870 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,871 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,896 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,897 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,897 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,898 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,898 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,899 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,899 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,900 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,900 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,901 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,901 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,902 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,903 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,903 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,904 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,905 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,905 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,906 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,907 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,907 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,908 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-31 11:02:35,926 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2023-05-31 11:02:36,306 [INFO] CADModel:165 - CPN selected for project levelSTM32F446RET6
+2023-05-31 11:02:36,306 [INFO] CADModel:114 - Register for checkConnection events
+2023-05-31 11:02:36,363 [INFO] OpenFileManager:328 - Restore cursor
+2023-05-31 11:02:36,563 [WARN] IP:2113 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:02:36,563 [WARN] IP:2113 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:02:36,563 [WARN] IP:2113 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:02:36,565 [WARN] IP:2113 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:02:36,565 [WARN] IP:2113 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:02:36,565 [WARN] IP:2113 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:03:20,037 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-31 11:03:22,531 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 537712776 Bytes (695205888)
+2023-05-31 11:03:24,020 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 558169352 Bytes (695205888)
+2023-05-31 11:03:27,552 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 521300888 Bytes (695205888)
+2023-05-31 11:03:28,298 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 11:03:28,298 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 11:03:28,298 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 11:03:28,298 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 11:03:28,298 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-05-31 11:03:28,298 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-05-31 11:03:28,298 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-31 11:03:28,298 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-05-31 11:03:28,298 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-31 11:03:28,298 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-05-31 11:03:28,299 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-31 11:03:28,305 [INFO] CodeGenerator:793 - code generatio: config db path: C:/Users/m-ali.khlifi-ext/.stm32cubemx/databases/DB.6.0.80/db/
+2023-05-31 11:03:28,392 [WARN] IP:2113 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:03:28,392 [WARN] IP:2113 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:03:28,392 [WARN] IP:2113 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:03:28,960 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp_save
+2023-05-31 11:03:29,448 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp
+2023-05-31 11:03:29,614 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c_save
+2023-05-31 11:03:29,842 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c
+2023-05-31 11:03:29,872 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h_save
+2023-05-31 11:03:30,024 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h
+2023-05-31 11:03:30,208 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-05-31 11:03:30,250 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-05-31 11:03:30,377 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-05-31 11:03:30,392 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-05-31 11:03:30,491 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-05-31 11:03:30,521 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-05-31 11:03:30,669 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-05-31 11:03:30,702 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-05-31 11:03:30,942 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-05-31 11:03:31,762 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 11:03:31,827 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c_save
+2023-05-31 11:03:32,054 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c
+2023-05-31 11:03:32,079 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h_save
+2023-05-31 11:03:32,271 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h
+2023-05-31 11:03:32,444 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c_save
+2023-05-31 11:03:32,606 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c
+2023-05-31 11:03:32,643 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h_save
+2023-05-31 11:03:32,758 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h
+2023-05-31 11:03:32,808 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c_save
+2023-05-31 11:03:33,083 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c
+2023-05-31 11:03:33,111 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h_save
+2023-05-31 11:03:33,227 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h
+2023-05-31 11:03:33,253 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 11:03:33,293 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c_save
+2023-05-31 11:03:33,398 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c
+2023-05-31 11:03:33,417 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h_save
+2023-05-31 11:03:33,499 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h
+2023-05-31 11:03:33,521 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h_save
+2023-05-31 11:03:33,615 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h
+2023-05-31 11:03:33,639 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c_save
+2023-05-31 11:03:33,770 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c
+2023-05-31 11:03:33,792 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h_save
+2023-05-31 11:03:33,874 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h
+2023-05-31 11:03:33,897 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c_save
+2023-05-31 11:03:33,991 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c
+2023-05-31 11:03:34,017 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h_save
+2023-05-31 11:03:34,102 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h
+2023-05-31 11:03:34,127 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c_save
+2023-05-31 11:03:34,236 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c
+2023-05-31 11:03:34,285 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c_save
+2023-05-31 11:03:34,442 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c
+2023-05-31 11:03:34,470 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h_save
+2023-05-31 11:03:34,591 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h
+2023-05-31 11:03:34,687 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c_save
+2023-05-31 11:03:34,855 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c
+2023-05-31 11:03:34,872 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp_save
+2023-05-31 11:03:34,985 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp
+2023-05-31 11:03:35,048 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-05-31 11:03:35,177 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h
+2023-05-31 11:03:35,228 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-05-31 11:03:35,281 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h_save
+2023-05-31 11:03:35,399 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h
+2023-05-31 11:03:35,429 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c_save
+2023-05-31 11:03:35,631 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c
+2023-05-31 11:03:38,465 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 2111mS.
+2023-05-31 11:03:38,527 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-31 11:03:39,257 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-05-31 11:03:39,280 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-05-31 11:03:39,307 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-05-31 11:03:39,320 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2023-05-31 11:03:39,349 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2023-05-31 11:03:39,373 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2023-05-31 11:03:41,278 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-05-31 11:03:45,368 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 6841mS.
+2023-05-31 11:03:45,377 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 6mS.
+2023-05-31 11:03:45,400 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-31 11:53:39,223 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-31 11:53:42,660 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 542631408 Bytes (832569344)
+2023-05-31 11:53:48,403 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 565176712 Bytes (832569344)
+2023-05-31 11:53:49,930 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 645918192 Bytes (832569344)
+2023-05-31 11:53:50,178 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 11:53:50,178 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 11:53:50,178 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 11:53:50,178 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 11:53:50,178 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-05-31 11:53:50,178 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-05-31 11:53:50,178 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-31 11:53:50,178 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-05-31 11:53:50,178 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-31 11:53:50,178 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-05-31 11:53:50,178 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-31 11:53:50,193 [INFO] CodeGenerator:793 - code generatio: config db path: C:/Users/m-ali.khlifi-ext/.stm32cubemx/databases/DB.6.0.80/db/
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-31 11:53:50,193 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Stream5
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Stream5
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-31 11:53:50,262 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-31 11:53:50,262 [WARN] IP:2113 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:53:50,278 [WARN] IP:2113 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:53:50,278 [WARN] IP:2113 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 11:53:50,478 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp_save
+2023-05-31 11:53:50,654 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp
+2023-05-31 11:53:50,765 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c_save
+2023-05-31 11:53:50,996 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c
+2023-05-31 11:53:51,057 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h_save
+2023-05-31 11:53:51,197 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h
+2023-05-31 11:53:51,308 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-05-31 11:53:51,348 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-05-31 11:53:51,539 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-05-31 11:53:51,549 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-05-31 11:53:51,630 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-05-31 11:53:51,648 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-05-31 11:53:51,748 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-05-31 11:53:51,768 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-05-31 11:53:51,846 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-05-31 11:53:52,493 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 11:53:52,553 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c_save
+2023-05-31 11:53:52,734 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c
+2023-05-31 11:53:52,764 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h_save
+2023-05-31 11:53:52,895 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h
+2023-05-31 11:53:52,985 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c_save
+2023-05-31 11:53:53,136 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c
+2023-05-31 11:53:53,166 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h_save
+2023-05-31 11:53:53,264 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h
+2023-05-31 11:53:53,311 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c_save
+2023-05-31 11:53:53,486 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c
+2023-05-31 11:53:53,501 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h_save
+2023-05-31 11:53:53,580 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h
+2023-05-31 11:53:53,596 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 11:53:53,627 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c_save
+2023-05-31 11:53:53,743 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c
+2023-05-31 11:53:53,765 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h_save
+2023-05-31 11:53:53,843 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h
+2023-05-31 11:53:53,865 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h_save
+2023-05-31 11:53:53,966 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h
+2023-05-31 11:53:53,997 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c_save
+2023-05-31 11:53:54,128 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c
+2023-05-31 11:53:54,144 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h_save
+2023-05-31 11:53:54,229 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h
+2023-05-31 11:53:54,260 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c_save
+2023-05-31 11:53:54,345 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c
+2023-05-31 11:53:54,360 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h_save
+2023-05-31 11:53:54,429 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h
+2023-05-31 11:53:54,460 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c_save
+2023-05-31 11:53:54,598 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c
+2023-05-31 11:53:54,645 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c_save
+2023-05-31 11:53:54,783 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c
+2023-05-31 11:53:54,799 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h_save
+2023-05-31 11:53:54,868 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h
+2023-05-31 11:53:54,946 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c_save
+2023-05-31 11:53:55,046 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c
+2023-05-31 11:53:55,062 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp_save
+2023-05-31 11:53:55,151 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp
+2023-05-31 11:53:55,201 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-05-31 11:53:55,372 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h
+2023-05-31 11:53:55,432 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-05-31 11:53:55,483 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h_save
+2023-05-31 11:53:55,591 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h
+2023-05-31 11:53:55,622 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c_save
+2023-05-31 11:53:55,769 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c
+2023-05-31 11:53:57,700 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 1455mS.
+2023-05-31 11:53:57,716 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-31 11:53:58,079 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-05-31 11:54:01,216 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3500mS.
+2023-05-31 11:54:01,216 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-31 11:54:01,231 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-31 12:15:21,339 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-31 12:15:23,588 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 643065448 Bytes (926941184)
+2023-05-31 12:15:24,623 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 666022360 Bytes (926941184)
+2023-05-31 12:15:25,928 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 703882856 Bytes (926941184)
+2023-05-31 12:15:26,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 12:15:26,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 12:15:26,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 12:15:26,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 12:15:26,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-05-31 12:15:26,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-05-31 12:15:26,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-31 12:15:26,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-05-31 12:15:26,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-31 12:15:26,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-05-31 12:15:26,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-31 12:15:26,159 [INFO] CodeGenerator:793 - code generatio: config db path: C:/Users/m-ali.khlifi-ext/.stm32cubemx/databases/DB.6.0.80/db/
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-31 12:15:26,166 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Stream5
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Stream5
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-31 12:15:26,228 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-31 12:15:26,244 [WARN] IP:2113 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 12:15:26,244 [WARN] IP:2113 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 12:15:26,244 [WARN] IP:2113 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 12:15:26,513 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp_save
+2023-05-31 12:15:26,609 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp
+2023-05-31 12:15:26,679 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c_save
+2023-05-31 12:15:26,780 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c
+2023-05-31 12:15:26,800 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h_save
+2023-05-31 12:15:26,901 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h
+2023-05-31 12:15:26,970 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-05-31 12:15:27,001 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-05-31 12:15:27,111 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-05-31 12:15:27,121 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-05-31 12:15:27,180 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-05-31 12:15:27,195 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-05-31 12:15:27,258 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-05-31 12:15:27,280 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-05-31 12:15:27,358 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-05-31 12:15:27,759 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 12:15:27,812 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c_save
+2023-05-31 12:15:27,897 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c
+2023-05-31 12:15:27,928 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h_save
+2023-05-31 12:15:27,997 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h
+2023-05-31 12:15:28,060 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c_save
+2023-05-31 12:15:28,145 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c
+2023-05-31 12:15:28,182 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h_save
+2023-05-31 12:15:28,245 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h
+2023-05-31 12:15:28,283 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c_save
+2023-05-31 12:15:28,445 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c
+2023-05-31 12:15:28,477 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h_save
+2023-05-31 12:15:28,577 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h
+2023-05-31 12:15:28,583 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 12:15:28,630 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c_save
+2023-05-31 12:15:28,736 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c
+2023-05-31 12:15:28,764 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h_save
+2023-05-31 12:15:28,867 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h
+2023-05-31 12:15:28,887 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h_save
+2023-05-31 12:15:28,985 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h
+2023-05-31 12:15:29,007 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c_save
+2023-05-31 12:15:29,128 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c
+2023-05-31 12:15:29,159 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h_save
+2023-05-31 12:15:29,244 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h
+2023-05-31 12:15:29,268 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c_save
+2023-05-31 12:15:29,377 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c
+2023-05-31 12:15:29,403 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h_save
+2023-05-31 12:15:29,503 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h
+2023-05-31 12:15:29,534 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c_save
+2023-05-31 12:15:29,665 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c
+2023-05-31 12:15:29,703 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c_save
+2023-05-31 12:15:29,865 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c
+2023-05-31 12:15:29,881 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h_save
+2023-05-31 12:15:29,966 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h
+2023-05-31 12:15:30,019 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c_save
+2023-05-31 12:15:30,104 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c
+2023-05-31 12:15:30,119 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp_save
+2023-05-31 12:15:30,204 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp
+2023-05-31 12:15:30,235 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-05-31 12:15:30,320 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h
+2023-05-31 12:15:30,351 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-05-31 12:15:30,389 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h_save
+2023-05-31 12:15:30,467 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h
+2023-05-31 12:15:30,489 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c_save
+2023-05-31 12:15:30,621 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c
+2023-05-31 12:15:32,424 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 1350mS.
+2023-05-31 12:15:32,446 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-31 12:15:32,825 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-05-31 12:15:35,764 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3318mS.
+2023-05-31 12:15:35,764 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-31 12:15:35,776 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-31 12:18:38,120 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-31 12:18:40,188 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 737442664 Bytes (970981376)
+2023-05-31 12:18:41,194 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 757892360 Bytes (970981376)
+2023-05-31 12:18:42,461 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 795116728 Bytes (970981376)
+2023-05-31 12:18:42,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 12:18:42,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 12:18:42,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 12:18:42,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 12:18:42,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-05-31 12:18:42,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-05-31 12:18:42,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-31 12:18:42,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-05-31 12:18:42,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-31 12:18:42,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-05-31 12:18:42,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-31 12:18:42,747 [INFO] CodeGenerator:793 - code generatio: config db path: C:/Users/m-ali.khlifi-ext/.stm32cubemx/databases/DB.6.0.80/db/
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-31 12:18:42,762 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Stream5
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Stream5
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-31 12:18:42,800 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-31 12:18:42,800 [WARN] IP:2113 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 12:18:42,800 [WARN] IP:2113 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 12:18:42,800 [WARN] IP:2113 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 12:18:43,018 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp_save
+2023-05-31 12:18:43,088 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp
+2023-05-31 12:18:43,195 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c_save
+2023-05-31 12:18:43,317 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c
+2023-05-31 12:18:43,333 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h_save
+2023-05-31 12:18:43,449 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h
+2023-05-31 12:18:43,517 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-05-31 12:18:43,533 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-05-31 12:18:43,595 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-05-31 12:18:43,611 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-05-31 12:18:43,664 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-05-31 12:18:43,664 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-05-31 12:18:43,733 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-05-31 12:18:43,749 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-05-31 12:18:43,818 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-05-31 12:18:44,150 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 12:18:44,181 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c_save
+2023-05-31 12:18:44,282 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c
+2023-05-31 12:18:44,297 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h_save
+2023-05-31 12:18:44,382 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h
+2023-05-31 12:18:44,461 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c_save
+2023-05-31 12:18:44,553 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c
+2023-05-31 12:18:44,573 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h_save
+2023-05-31 12:18:44,683 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h
+2023-05-31 12:18:44,733 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c_save
+2023-05-31 12:18:44,938 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c
+2023-05-31 12:18:44,969 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h_save
+2023-05-31 12:18:45,070 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h
+2023-05-31 12:18:45,117 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 12:18:45,175 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c_save
+2023-05-31 12:18:45,316 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c
+2023-05-31 12:18:45,336 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h_save
+2023-05-31 12:18:45,404 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h
+2023-05-31 12:18:45,420 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h_save
+2023-05-31 12:18:45,504 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h
+2023-05-31 12:18:45,520 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c_save
+2023-05-31 12:18:45,605 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c
+2023-05-31 12:18:45,620 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h_save
+2023-05-31 12:18:45,705 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h
+2023-05-31 12:18:45,720 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c_save
+2023-05-31 12:18:45,805 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c
+2023-05-31 12:18:45,821 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h_save
+2023-05-31 12:18:45,883 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h
+2023-05-31 12:18:45,905 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c_save
+2023-05-31 12:18:46,021 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c
+2023-05-31 12:18:46,068 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c_save
+2023-05-31 12:18:46,153 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c
+2023-05-31 12:18:46,168 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h_save
+2023-05-31 12:18:46,253 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h
+2023-05-31 12:18:46,306 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c_save
+2023-05-31 12:18:46,385 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c
+2023-05-31 12:18:46,407 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp_save
+2023-05-31 12:18:46,454 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp
+2023-05-31 12:18:46,485 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-05-31 12:18:46,585 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h
+2023-05-31 12:18:46,623 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-05-31 12:18:46,654 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h_save
+2023-05-31 12:18:46,723 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h
+2023-05-31 12:18:46,739 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c_save
+2023-05-31 12:18:46,902 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c
+2023-05-31 12:18:48,315 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 972mS.
+2023-05-31 12:18:48,331 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-31 12:18:48,701 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-05-31 12:18:51,426 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3095mS.
+2023-05-31 12:18:51,426 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-31 12:18:51,441 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-31 13:04:06,103 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-31 13:04:07,814 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 765459328 Bytes (999292928)
+2023-05-31 13:04:08,734 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 787558816 Bytes (999292928)
+2023-05-31 13:04:09,683 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 574998704 Bytes (999292928)
+2023-05-31 13:04:09,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 13:04:09,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 13:04:09,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 13:04:09,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 13:04:09,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-05-31 13:04:09,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-05-31 13:04:09,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-31 13:04:09,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-05-31 13:04:09,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-31 13:04:09,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-05-31 13:04:09,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-31 13:04:09,937 [INFO] CodeGenerator:793 - code generatio: config db path: C:/Users/m-ali.khlifi-ext/.stm32cubemx/databases/DB.6.0.80/db/
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-31 13:04:09,937 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Stream5
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Stream5
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-31 13:04:09,968 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-31 13:04:09,984 [WARN] IP:2113 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 13:04:09,984 [WARN] IP:2113 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 13:04:09,984 [WARN] IP:2113 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 13:04:10,115 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp_save
+2023-05-31 13:04:10,184 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp
+2023-05-31 13:04:10,237 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c_save
+2023-05-31 13:04:10,316 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c
+2023-05-31 13:04:10,322 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h_save
+2023-05-31 13:04:10,400 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h
+2023-05-31 13:04:10,438 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-05-31 13:04:10,469 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-05-31 13:04:10,523 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-05-31 13:04:10,538 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-05-31 13:04:10,585 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-05-31 13:04:10,601 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-05-31 13:04:10,670 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-05-31 13:04:10,685 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-05-31 13:04:10,786 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-05-31 13:04:11,224 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 13:04:11,271 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c_save
+2023-05-31 13:04:11,367 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c
+2023-05-31 13:04:11,387 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h_save
+2023-05-31 13:04:11,458 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h
+2023-05-31 13:04:11,526 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c_save
+2023-05-31 13:04:11,602 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c
+2023-05-31 13:04:11,617 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h_save
+2023-05-31 13:04:11,686 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h
+2023-05-31 13:04:11,718 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c_save
+2023-05-31 13:04:11,880 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c
+2023-05-31 13:04:11,903 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h_save
+2023-05-31 13:04:11,981 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h
+2023-05-31 13:04:11,987 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 13:04:12,018 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c_save
+2023-05-31 13:04:12,103 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c
+2023-05-31 13:04:12,119 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h_save
+2023-05-31 13:04:12,203 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h
+2023-05-31 13:04:12,219 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h_save
+2023-05-31 13:04:12,304 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h
+2023-05-31 13:04:12,335 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c_save
+2023-05-31 13:04:12,435 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c
+2023-05-31 13:04:12,451 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h_save
+2023-05-31 13:04:12,520 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h
+2023-05-31 13:04:12,535 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c_save
+2023-05-31 13:04:12,620 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c
+2023-05-31 13:04:12,636 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h_save
+2023-05-31 13:04:12,720 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h
+2023-05-31 13:04:12,736 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c_save
+2023-05-31 13:04:12,968 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c
+2023-05-31 13:04:13,022 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c_save
+2023-05-31 13:04:13,203 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c
+2023-05-31 13:04:13,223 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h_save
+2023-05-31 13:04:13,322 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h
+2023-05-31 13:04:13,449 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c_save
+2023-05-31 13:04:13,557 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c
+2023-05-31 13:04:13,557 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp_save
+2023-05-31 13:04:13,634 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp
+2023-05-31 13:04:13,683 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-05-31 13:04:13,763 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h
+2023-05-31 13:04:13,794 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-05-31 13:04:13,826 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h_save
+2023-05-31 13:04:13,910 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h
+2023-05-31 13:04:13,926 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c_save
+2023-05-31 13:04:14,042 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c
+2023-05-31 13:04:15,716 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 1068mS.
+2023-05-31 13:04:15,716 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-31 13:04:16,101 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-05-31 13:04:18,824 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3108mS.
+2023-05-31 13:04:18,840 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 16mS.
+2023-05-31 13:04:18,856 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-31 14:27:43,657 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-31 14:27:45,951 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 758221408 Bytes (1019215872)
+2023-05-31 14:27:46,924 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 780675008 Bytes (1019215872)
+2023-05-31 14:27:47,964 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 869977368 Bytes (1019215872)
+2023-05-31 14:27:48,211 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 14:27:48,211 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 14:27:48,211 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 14:27:48,211 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 14:27:48,211 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-05-31 14:27:48,211 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-05-31 14:27:48,211 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-31 14:27:48,211 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-05-31 14:27:48,211 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-31 14:27:48,211 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-05-31 14:27:48,211 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-31 14:27:48,211 [INFO] CodeGenerator:793 - code generatio: config db path: C:/Users/m-ali.khlifi-ext/.stm32cubemx/databases/DB.6.0.80/db/
+2023-05-31 14:27:48,211 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-31 14:27:48,211 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 14:27:48,211 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-05-31 14:27:48,211 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-05-31 14:27:48,211 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-31 14:27:48,211 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 14:27:48,211 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-05-31 14:27:48,211 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-05-31 14:27:48,211 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-31 14:27:48,227 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Stream5
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Stream5
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-31 14:27:48,249 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-31 14:27:48,249 [WARN] IP:2113 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 14:27:48,249 [WARN] IP:2113 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 14:27:48,249 [WARN] IP:2113 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 14:27:48,396 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp_save
+2023-05-31 14:27:48,465 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp
+2023-05-31 14:27:48,528 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c_save
+2023-05-31 14:27:48,597 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c
+2023-05-31 14:27:48,612 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h_save
+2023-05-31 14:27:48,697 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h
+2023-05-31 14:27:48,750 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-05-31 14:27:48,766 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-05-31 14:27:48,851 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-05-31 14:27:48,851 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-05-31 14:27:48,913 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-05-31 14:27:48,929 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-05-31 14:27:48,998 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-05-31 14:27:49,029 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-05-31 14:27:49,129 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-05-31 14:27:49,518 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 14:27:49,552 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c_save
+2023-05-31 14:27:49,653 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c
+2023-05-31 14:27:49,668 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h_save
+2023-05-31 14:27:49,739 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h
+2023-05-31 14:27:49,813 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c_save
+2023-05-31 14:27:49,891 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c
+2023-05-31 14:27:49,914 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h_save
+2023-05-31 14:27:49,976 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h
+2023-05-31 14:27:50,014 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c_save
+2023-05-31 14:27:50,161 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c
+2023-05-31 14:27:50,192 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h_save
+2023-05-31 14:27:50,261 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h
+2023-05-31 14:27:50,277 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 14:27:50,315 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c_save
+2023-05-31 14:27:50,393 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c
+2023-05-31 14:27:50,415 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h_save
+2023-05-31 14:27:50,531 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h
+2023-05-31 14:27:50,562 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h_save
+2023-05-31 14:27:50,647 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h
+2023-05-31 14:27:50,662 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c_save
+2023-05-31 14:27:50,747 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c
+2023-05-31 14:27:50,762 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h_save
+2023-05-31 14:27:50,847 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h
+2023-05-31 14:27:50,863 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c_save
+2023-05-31 14:27:50,948 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c
+2023-05-31 14:27:50,963 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h_save
+2023-05-31 14:27:51,048 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h
+2023-05-31 14:27:51,063 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c_save
+2023-05-31 14:27:51,164 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c
+2023-05-31 14:27:51,217 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c_save
+2023-05-31 14:27:51,449 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c
+2023-05-31 14:27:51,464 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h_save
+2023-05-31 14:27:51,568 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h
+2023-05-31 14:27:51,651 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c_save
+2023-05-31 14:27:51,753 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c
+2023-05-31 14:27:51,773 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp_save
+2023-05-31 14:27:51,872 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp
+2023-05-31 14:27:51,904 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-05-31 14:27:52,020 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h
+2023-05-31 14:27:52,064 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-05-31 14:27:52,134 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h_save
+2023-05-31 14:27:52,275 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h
+2023-05-31 14:27:52,303 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c_save
+2023-05-31 14:27:52,410 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c
+2023-05-31 14:27:54,282 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 1376mS.
+2023-05-31 14:27:54,282 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-31 14:27:54,652 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-05-31 14:27:57,385 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3103mS.
+2023-05-31 14:27:57,385 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-31 14:27:57,401 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-31 14:40:46,383 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-31 14:40:48,191 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 747724648 Bytes (1022361600)
+2023-05-31 14:40:49,127 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 769744736 Bytes (1022361600)
+2023-05-31 14:40:50,170 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 807493624 Bytes (1022361600)
+2023-05-31 14:40:50,436 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 14:40:50,436 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 14:40:50,436 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 14:40:50,436 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-31 14:40:50,436 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-05-31 14:40:50,436 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-05-31 14:40:50,436 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-31 14:40:50,436 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-05-31 14:40:50,436 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-31 14:40:50,436 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-05-31 14:40:50,436 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-31 14:40:50,436 [INFO] CodeGenerator:793 - code generatio: config db path: C:/Users/m-ali.khlifi-ext/.stm32cubemx/databases/DB.6.0.80/db/
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-31 14:40:50,452 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Stream5
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Stream5
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:321 - 	 sub Args: 
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-31 14:40:50,468 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-31 14:40:50,483 [WARN] IP:2113 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 14:40:50,483 [WARN] IP:2113 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 14:40:50,483 [WARN] IP:2113 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-05-31 14:40:50,684 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp_save
+2023-05-31 14:40:50,768 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\license.tmp
+2023-05-31 14:40:50,834 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c_save
+2023-05-31 14:40:50,935 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\gpio.c
+2023-05-31 14:40:50,955 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h_save
+2023-05-31 14:40:51,059 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\gpio.h
+2023-05-31 14:40:51,122 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-05-31 14:40:51,159 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-05-31 14:40:51,237 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-05-31 14:40:51,246 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-05-31 14:40:51,314 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-05-31 14:40:51,326 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-05-31 14:40:51,407 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-05-31 14:40:51,415 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-05-31 14:40:51,525 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-05-31 14:40:51,873 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 14:40:51,904 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c_save
+2023-05-31 14:40:52,026 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\adc.c
+2023-05-31 14:40:52,058 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h_save
+2023-05-31 14:40:52,139 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\adc.h
+2023-05-31 14:40:52,220 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c_save
+2023-05-31 14:40:52,310 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\dma.c
+2023-05-31 14:40:52,354 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h_save
+2023-05-31 14:40:52,439 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\dma.h
+2023-05-31 14:40:52,485 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c_save
+2023-05-31 14:40:52,702 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\tim.c
+2023-05-31 14:40:52,717 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h_save
+2023-05-31 14:40:52,786 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\tim.h
+2023-05-31 14:40:52,802 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-31 14:40:52,840 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c_save
+2023-05-31 14:40:52,918 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.c
+2023-05-31 14:40:52,933 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h_save
+2023-05-31 14:40:53,002 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usb_device.h
+2023-05-31 14:40:53,034 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h_save
+2023-05-31 14:40:53,103 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.h
+2023-05-31 14:40:53,118 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c_save
+2023-05-31 14:40:53,218 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\Target\usbd_conf.c
+2023-05-31 14:40:53,234 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h_save
+2023-05-31 14:40:53,303 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.h
+2023-05-31 14:40:53,319 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c_save
+2023-05-31 14:40:53,403 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_desc.c
+2023-05-31 14:40:53,419 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h_save
+2023-05-31 14:40:53,527 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.h
+2023-05-31 14:40:53,557 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c_save
+2023-05-31 14:40:53,657 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\USB_DEVICE\App\usbd_cdc_if.c
+2023-05-31 14:40:53,704 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c_save
+2023-05-31 14:40:53,889 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_it.c
+2023-05-31 14:40:53,904 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h_save
+2023-05-31 14:40:53,973 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_it.h
+2023-05-31 14:40:54,020 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c_save
+2023-05-31 14:40:54,105 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\stm32f4xx_hal_msp.c
+2023-05-31 14:40:54,120 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp_save
+2023-05-31 14:40:54,174 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\MXTmpFiles\system.tmp
+2023-05-31 14:40:54,221 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-05-31 14:40:54,305 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\stm32f4xx_hal_conf.h
+2023-05-31 14:40:54,343 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-05-31 14:40:54,374 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h_save
+2023-05-31 14:40:54,459 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Inc\main.h
+2023-05-31 14:40:54,474 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c_save
+2023-05-31 14:40:54,622 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\OneDrive - DELACHAUX SA\work2\cadilac1.1\Core\Src\main.c
+2023-05-31 14:40:55,965 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 908mS.
+2023-05-31 14:40:55,965 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-31 14:40:56,150 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-05-31 14:40:59,000 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3035mS.
+2023-05-31 14:40:59,000 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-31 14:40:59,010 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-31 15:24:32,050 [INFO] Activator:176 - 
+
+
+2023-05-31 15:24:32,050 [INFO] Activator:177 - !SESSION log4j initialized
+2023-05-31 15:24:43,782 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-05-31 15:25:06,385 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-05-31 15:25:06,385 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-05-31 15:25:06,385 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

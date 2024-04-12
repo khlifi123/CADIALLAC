@@ -1,0 +1,10 @@
+15:29:07 **** Incremental Build of configuration Debug for project UARTF74 ****
+make -j8 all 
+arm-none-eabi-size   UARTF74.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20772	     24	   2056	  22852	   5944	UARTF74.elf
+Finished building: default.size.stdout
+ 
+
+15:29:08 Build Finished. 0 errors, 0 warnings. (took 601ms)
+

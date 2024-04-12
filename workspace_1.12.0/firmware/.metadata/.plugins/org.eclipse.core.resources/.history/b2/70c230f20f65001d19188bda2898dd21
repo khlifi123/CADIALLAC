@@ -1,0 +1,26 @@
+#include "motor_encoder.h"
+
+
+void update_encoder(encoder_instance_uint16 *encoder_value, uint32_t timer_counter, uint8_t direction)
+{
+	if (direction == 0)
+	{
+		if(encoder_value ->last_counter_value > timer_counter)
+			encoder_value ->velocity = encoder_value ->last_counter_value - timer_counter;
+		else
+			encoder_value ->velocity = encoder_value ->last_counter_value +(MAX_VALUE_ENCODER - timer_counter);
+	}
+	else
+	{
+		encoder_value ->velocity = timer_counter - encoder_value ->last_counter_value;
+	}
+
+	encoder_value ->position += encoder_value ->velocity;
+	encoder_value ->last_counter_value = timer_counter;
+}
+void reset_encoder(encoder_instance_uint16 *encoder_value)
+{
+	encoder_value ->velocity = 0;
+	encoder_value ->position = 0;
+	encoder_value ->last_counter_value = 0;
+}

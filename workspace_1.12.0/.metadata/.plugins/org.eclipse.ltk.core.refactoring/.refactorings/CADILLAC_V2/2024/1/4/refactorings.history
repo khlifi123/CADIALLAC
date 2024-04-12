@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CADILLAC_V2/Core/Inc/Movetox_y_alpha&apos; to &apos;Movetox_y_alpha.h&apos;" description="Rename resource &apos;Movetox_y_alpha&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/Movetox_y_alpha" name="Movetox_y_alpha.h" stamp="1706013916074" updateReferences="true"/>
+</session>

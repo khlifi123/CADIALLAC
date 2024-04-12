@@ -1,0 +1,521 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.c
+  * @brief          : Main program body
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2023 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+#include "adc.h"
+#include "dma.h"
+#include "tim.h"
+#include "usb_device.h"
+#include "gpio.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+#include "asservissement.h"
+#include "interruption.h"
+
+/* USER CODE END Includes */
+
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+
+/* USER CODE END PTD */
+
+/* Private define ------------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+#define  vitesseRef1 300
+#define resolution 10
+#define z   (1000/(periodMotor1) * 60)/ ( resolution)
+//#define counttot(d,e)   (d+e)
+
+/* USER CODE END PD */
+
+/* Private macro -------------------------------------------------------------*/
+/* USER CODE BEGIN PM */
+
+/* USER CODE END PM */
+
+/* Private variables ---------------------------------------------------------*/
+
+/* USER CODE BEGIN PV */
+
+/* USER CODE END PV */
+
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+/* USER CODE BEGIN PFP */
+//double interrA();
+int Rotation();
+void moveTo( double pos);
+//definitions des vitesses est ses symetries par exp speedMotor1-->spedMotor2
+float speedMotor1=0;
+float speedMotor2=0;
+float speedMotor3=0;
+float speedMotor4=0;
+float speedMotor5=0;
+float speedMotor6=0;
+
+//definitions des periodes est ses symetries par exp periodMotor1-->periodMotor2
+uint16_t  periodMotor1=0;
+uint16_t periodMotor2=0;
+uint16_t periodMotor3=0;
+uint16_t periodMotor4=0;
+uint16_t periodMotor5=0;
+uint16_t periodMotor6=0;
+
+/* USER CODE END 0 */
+volatile int Is_First_Captured1=0;
+volatile int Is_First_Captured2=0;
+volatile int Is_First_Captured3=0;
+volatile int Is_First_Captured4=0;
+volatile int Is_First_Captured5=0;
+volatile int Is_First_Captured6=0;
+
+volatile float IC1_Val1=0;
+volatile float IC2_Val1=0;
+volatile float IC3_Val1=0;
+volatile float IC4_Val1=0;
+volatile float IC5_Val1=0;
+volatile float IC6_Val1=0;
+
+
+volatile float Difference1=0;
+volatile float Difference2=0;
+volatile float Difference3=0;
+volatile float Difference4=0;
+volatile float Difference5=0;
+volatile float Difference6=0;
+
+uint32_t buffer;
+float Tension_actuelle;
+double countM1=0;
+double countM2=0;
+double countM3=0;
+double countM4=0;
+double countM5=0;
+double countM6=0;
+uint32_t tab1=0;
+uint32_t tab0=0;
+float volatile  Position_voulu = 257.5 ;
+char data,data1;
+int flag=0;
+char *dta="ok";
+int P=0;
+int compt=0;
+int comptf=0;
+float courc=0;
+float lastspeed=1;
+int rotVal=0;
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+int Rotation() {
+
+	 if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0)==1 && HAL_GPIO_ReadPin(GPIOC, rotation1_Pin)==0 ) {
+		 compt+=1; // Incrémenter le compteur
+		        }else
+		        compt-=1;
+
+	 if (compt<0)
+		 compt=0;
+return compt;
+ }
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
+{
+	  if(htim->Instance==TIM2){
+
+		  if(htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1)// MOTEUR 1
+
+		  			{
+			       // Rotation();
+			        interrA();
+                    tab0=countM1;
+                    // gett();
+			         //interrA();
+		  			if (Is_First_Captured1 == 0)
+		  				{
+		  				IC1_Val1=HAL_GetTick();
+		  				Is_First_Captured1++;
+		  				}
+		  			else if (Is_First_Captured1 == 1)
+		  				{
+		  				periodMotor1 = HAL_GetTick()-IC1_Val1;//periode1
+		  				if(periodMotor1!=0){
+		  				speedMotor1 = z;
+		  				  tab1= speedMotor1; }
+		  				Is_First_Captured1 = 0;
+
+		  				}
+
+
+		  			}
+		  if(htim->Channel == HAL_TIM_ACTIVE_CHANNEL_2)// MOTEUR 2
+
+		  		  			{
+
+
+		  		  			if (Is_First_Captured2 == 0)
+		  		  				{
+		  		  				IC2_Val1=HAL_GetTick();
+		  		  				Is_First_Captured2++;
+		  		  				}
+		  		  			else if (Is_First_Captured2 == 1)
+		  		  				{
+		  		  				periodMotor2 = HAL_GetTick()-IC2_Val1;//periode1
+		  		  				if(periodMotor2!=0){
+		  		  				speedMotor2 = (500/(periodMotor2) * 60)/ ( resolution);}
+		  		  				Is_First_Captured2 = 0;
+
+		  		  				}
+
+		  		  			}
+	                   }
+
+
+
+
+
+	  if(htim->Instance==TIM4){
+
+
+
+
+		  if(htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1)	//MOTEUR3
+
+		  		  			{
+
+		  		  			if (Is_First_Captured3 == 0)
+		  		  				{
+		  		  				IC3_Val1=HAL_GetTick();
+		  		  				Is_First_Captured3++;
+		  		  				}
+		  		  			else if (Is_First_Captured3 == 1)
+		  		  				{
+		  		  				periodMotor3 = HAL_GetTick()-IC3_Val1;//periode1
+		  		  				if(periodMotor3!=0){
+		  		  				speedMotor3 = (500/(periodMotor3) * 60)/ ( resolution);}
+		  		  				Is_First_Captured3 = 0;
+
+		  		  				}
+
+		  		  			}
+
+	  		if(htim->Channel==HAL_TIM_ACTIVE_CHANNEL_2)//MOTEUR4
+	  			  			{
+
+
+	  			  			if (Is_First_Captured4 == 0)
+	  			  							{
+	  			  							IC4_Val1=HAL_GetTick();
+	  			  							//timestamp1C1 = HAL_GetTick();
+	  			  							Is_First_Captured4++;
+	  			  							}
+	  			  						else if (Is_First_Captured4== 1)
+	  			  							{
+	  			  							periodMotor4 = HAL_GetTick()-IC4_Val1;//periode1periode1*0.5 both edge
+                                                  if(periodMotor4!=0){
+	  			  							speedMotor4 = (500/(periodMotor4) * 60) / ( resolution);
+                                                  }
+	  			  							Is_First_Captured4 = 0;
+
+	  			  							}
+
+	  			  			}
+
+	  		if(htim->Channel==HAL_TIM_ACTIVE_CHANNEL_3)//MOTEUR5
+	  			  			  			{
+
+
+	  			  			  			if (Is_First_Captured5 == 0)
+	  			  			  							{
+	  			  			  							IC5_Val1=HAL_GetTick();
+	  			  			  							//timestamp1C1 = HAL_GetTick();
+	  			  			  							Is_First_Captured5++;
+	  			  			  							}
+	  			  			  						else if (Is_First_Captured5== 1)
+	  			  			  							{
+	  			  			  							periodMotor5 = HAL_GetTick()-IC5_Val1;//periode1periode1*0.5 both edge
+	  		                                                  if(periodMotor5!=0){
+	  			  			  							speedMotor5 = (500/(periodMotor5) * 60) / ( resolution);
+	  		                                                  }
+	  			  			  							Is_First_Captured5 = 0;
+
+	  			  			  							}
+
+	  			  			  			}
+	  		if(htim->Channel==HAL_TIM_ACTIVE_CHANNEL_4)//MOTEUR6
+	  			  			  			{
+	  			  			  			if (Is_First_Captured6 == 0)
+	  			  			  							{
+	  			  			  							IC6_Val1=HAL_GetTick();
+	  			  			  							//timestamp1C1 = HAL_GetTick();
+	  			  			  							Is_First_Captured6++;
+	  			  			  							}
+	  			  			  						else if (Is_First_Captured6== 1)
+	  			  			  							{
+	  			  			  							periodMotor6 = HAL_GetTick()-IC6_Val1;//periode1periode1*0.5 both edge
+	  		                                                  if(periodMotor6!=0){
+	  			  			  							speedMotor6 = (500/(periodMotor6) * 60) / ( resolution);
+	  		                                                  }
+	  			  			  							Is_First_Captured6 = 0;
+
+	  			  			  							}
+
+	  			  			  			}
+	  		}
+
+
+
+
+}
+
+
+
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
+{
+   Tension_actuelle = buffer*21.5/4096;
+}
+
+void moveTo( double pos){
+while ( ( ( ( ( pos  ) ) > ( tab0 ) ) || ( ( ( pos-tab0 ) ) < ( -3 ) ) ) )
+{
+    if  (( pos - tab0 )>=0.4 &&  ( pos - tab0  )<=1)
+			  	{
+        P=1;
+
+	  HAL_GPIO_WritePin(GPIOC,  AV_RE_M1_Pin, RESET);
+
+	  regulation_Mt1(tab1, 0,vitesseRef1, 19.5,tab0, pos);
+	  HAL_Delay(1);
+
+			  	}
+	if  (( pos - tab0  )>1)//>=0.4
+				{
+		P=0;
+		      HAL_GPIO_WritePin(GPIOC,  AV_RE_M1_Pin, RESET);
+
+			  regulation_Mt1(tab1, 0, vitesseRef1, 19.5, tab0, pos);
+			  HAL_Delay(1);
+
+				}
+
+
+	 if (( pos - tab0  )<0 && ( pos - tab0  ) >=-3 )//<=-0.5
+				{
+                   P=1;
+		          HAL_GPIO_WritePin(GPIOC,  AV_RE_M1_Pin, SET);
+
+		 	      regulation_Mt1(tab1, 0, vitesseRef1, 19.5, tab0, pos);
+		 		  HAL_Delay(1);
+
+				}
+	 if (( pos - tab0   )<=-3   )//<=-0.5
+					{
+	                   P=0;
+			          HAL_GPIO_WritePin(GPIOC,  AV_RE_M1_Pin, SET);
+
+			 	      regulation_Mt1(tab1, 0, vitesseRef1, 19.5, tab0, pos);
+			 		  HAL_Delay(1);
+
+					}
+
+}
+	 			if  (( pos  -tab0  )==0)
+	 			   {
+	 				  TIM1->CCR1=0;
+	 			   }
+
+}
+
+/* USER CODE END 0 */
+
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
+int main(void)
+{
+  /* USER CODE BEGIN 1 */
+
+  /* USER CODE END 1 */
+
+  /* MCU Configuration--------------------------------------------------------*/
+
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  HAL_Init();
+
+  /* USER CODE BEGIN Init */
+
+  /* USER CODE END Init */
+
+  /* Configure the system clock */
+  SystemClock_Config();
+
+  /* USER CODE BEGIN SysInit */
+
+  /* USER CODE END SysInit */
+
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_DMA_Init();
+  MX_TIM1_Init();
+  MX_TIM4_Init();
+  MX_ADC1_Init();
+  MX_TIM2_Init();
+  MX_TIM3_Init();
+  MX_USB_DEVICE_Init();
+  /* USER CODE BEGIN 2 */
+  // start the adc
+
+HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
+HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
+HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
+HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_2);
+HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_3);
+
+TIM1->CCR1 =0;
+TIM1->CCR2 =0;
+TIM1->CCR3 =0;
+TIM3->CCR1 =0;
+TIM3->CCR2 =0;
+TIM3->CCR3 =0;
+
+//moteur1
+HAL_TIM_IC_Start_DMA(&htim2, TIM_CHANNEL_1, &tab0, 1);
+HAL_TIM_IC_Start_DMA(&htim2, TIM_CHANNEL_1, &tab1, 1);//PA1
+//moteur2
+HAL_TIM_IC_Start_IT(&htim2, TIM_CHANNEL_2);//PA1
+//moteur3
+HAL_TIM_IC_Start_IT(&htim4, TIM_CHANNEL_1);//PB6
+//moteur4
+HAL_TIM_IC_Start_IT(&htim4, TIM_CHANNEL_2);//PB7
+//moteur5
+HAL_TIM_IC_Start_IT(&htim4, TIM_CHANNEL_3);//PB8
+//moteur6
+HAL_TIM_IC_Start_IT(&htim4, TIM_CHANNEL_4);//PB9
+
+// BATTERY
+HAL_ADC_Start_DMA (&hadc1, &buffer, 1);
+
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+regulation_Mt1(tab1, 0, vitesseRef1, 17.5, tab0, 3000);
+HAL_Delay(16);
+
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
+
+/**
+  * @brief System Clock Configuration
+  * @retval None
+  */
+void SystemClock_Config(void)
+{
+  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+  /** Configure the main internal regulator output voltage
+  */
+  __HAL_RCC_PWR_CLK_ENABLE();
+  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE3);
+
+  /** Initializes the RCC Oscillators according to the specified parameters
+  * in the RCC_OscInitTypeDef structure.
+  */
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+  RCC_OscInitStruct.PLL.PLLM = 4;
+  RCC_OscInitStruct.PLL.PLLN = 72;
+  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+  RCC_OscInitStruct.PLL.PLLQ = 3;
+  RCC_OscInitStruct.PLL.PLLR = 7;
+  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Initializes the CPU, AHB and APB buses clocks
+  */
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
+
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+/* USER CODE BEGIN 4 */
+int _write(int file, char *ptr, int len)
+{
+  /* Implement your write code here, this is used by puts and printf for example */
+  int i=0;
+  for(i=0 ; i<len ; i++)
+    ITM_SendChar((*ptr++));
+  return len;
+}
+
+/* USER CODE END 4 */
+
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  /* USER CODE BEGIN Error_Handler_Debug */
+  /* User can add his own implementation to report the HAL error return state */
+  __disable_irq();
+  while (1)
+  {
+  }
+  /* USER CODE END Error_Handler_Debug */
+}
+
+#ifdef  USE_FULL_ASSERT
+/**
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(uint8_t *file, uint32_t line)
+{
+  /* USER CODE BEGIN 6 */
+  /* User can add his own implementation to report the file name and line number,
+     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+  /* USER CODE END 6 */
+}
+#endif /* USE_FULL_ASSERT */

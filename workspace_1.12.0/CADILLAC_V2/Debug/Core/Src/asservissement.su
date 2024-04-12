@@ -1,0 +1,6 @@
+../Core/Src/asservissement.c:52:6:Regulation_Mt1	48	static
+../Core/Src/asservissement.c:72:6:Regulation_Mt6	48	static
+../Core/Src/asservissement.c:99:6:Regulation_Mt2	48	static
+../Core/Src/asservissement.c:123:6:Regulation_Mt5	48	static
+../Core/Src/asservissement.c:149:6:Regulation_Mt3	48	static
+../Core/Src/asservissement.c:178:6:Regulation_Mt4	48	static

@@ -1,0 +1,6 @@
+../VE/DC_MOTOR.c:14:6:DC_MOTOR_Init	192	static
+../VE/DC_MOTOR.c:93:6:DC_MOTOR_Set_Direction	16	static
+../VE/DC_MOTOR.c:108:6:DC_MOTOR_Start	16	static
+../VE/DC_MOTOR.c:145:6:DC_MOTOR_Set_Speed	16	static
+../VE/DC_MOTOR.c:167:6:DC_Stand_BY	16	static
+../VE/DC_MOTOR.c:193:6:Frein	16	static

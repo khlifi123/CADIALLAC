@@ -1,0 +1,4 @@
+../VER/DC_MOTOR.c:14:6:DC_MOTOR_Init	56	static
+../VER/DC_MOTOR.c:127:6:DC_MOTOR_Start	16	static
+../VER/DC_MOTOR.c:167:6:DC_MOTOR_Frein	16	static
+../VER/DC_MOTOR.c:191:6:DC_MOTOR_Stop	16	static

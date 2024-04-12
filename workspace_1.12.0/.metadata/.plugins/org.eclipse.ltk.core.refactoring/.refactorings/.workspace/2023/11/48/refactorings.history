@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;CADILLAC_V2/Core/asservissement.h&apos;" deleteContents="false" description="Delete resource &apos;CADILLAC_V2/Core/asservissement.h&apos;" element1="/CADILLAC_V2/Core/asservissement.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1701097257952"/>
+</session>

@@ -1,0 +1,8 @@
+../Core/Src/asservissement.c:45:6:Initialization	8	static
+../Core/Src/asservissement.c:70:6:Cleanup	8	static
+../Core/Src/asservissement.c:93:6:Regulation_Mt1	48	static
+../Core/Src/asservissement.c:118:6:Regulation_Mt2	48	static
+../Core/Src/asservissement.c:147:6:Regulation_Mt3	48	static
+../Core/Src/asservissement.c:174:6:Regulation_Mt4	48	static
+../Core/Src/asservissement.c:205:6:Regulation_Mt5	48	static
+../Core/Src/asservissement.c:239:6:Regulation_Mt6	48	static

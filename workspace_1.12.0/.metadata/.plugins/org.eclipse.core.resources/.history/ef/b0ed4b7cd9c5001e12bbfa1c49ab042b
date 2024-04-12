@@ -1,0 +1,523 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.c
+  * @brief          : Main program body
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2023 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+#include "adc.h"
+#include "dma.h"
+#include "tim.h"
+#include "usart.h"
+#include "gpio.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+#include "asservissement.h"
+#include "interruption.h"
+#include "math.h"
+#include "stdlib.h"
+#include "stdio.h"
+#include "Movetox_y_alpha.h"
+
+/* USER CODE END Includes */
+
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+#define frequencyM1     1000/(periodMotor1)    // FREQUENCE DU L ENCODEUR 1
+#define frequencyM2     1000/(periodMotor2)    // FREQUENCE DU L ENCODEUR 2
+#define frequencyM3     1000/(periodMotor3)    // FREQUENCE DU L ENCODEUR 3
+#define frequencyM4     1000/(periodMotor4)    // FREQUENCE DU L ENCODEUR 4
+#define frequencyM5     1000/(periodMotor5)    // FREQUENCE DU L ENCODEUR 5
+#define frequencyM6     1000/(periodMotor6)    // FREQUENCE DU L ENCODEUR 6
+
+#define Rdivider     4// A modifier  : c'est la valeur du pont diviseur
+
+/* USER CODE END PTD */
+
+/* Private define ------------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+
+/* USER CODE END PD */
+
+/* Private macro -------------------------------------------------------------*/
+/* USER CODE BEGIN PM */
+
+/* USER CODE END PM */
+
+/* Private variables ---------------------------------------------------------*/
+
+/* USER CODE BEGIN PV */
+float speedMotor1=0;
+float speedMotor2=0;
+float speedMotor3=0;
+float speedMotor4=0;
+float speedMotor5=0;
+float speedMotor6=0;
+float vitesseRef1 =25  ;            // VITESSE DE REFERNCE POUR L ASSERVISSEMENT 90
+float vitesseRef3 =30;
+float vitesseRef2 =25;
+uint16_t periodMotor1=0;
+uint16_t periodMotor2=0;
+uint16_t periodMotor3=0;
+uint16_t periodMotor4=0;
+uint16_t periodMotor5=0;
+uint16_t periodMotor6=0;
+volatile float Is_First_Captured1=0;// VARIABLE POUR TESTER SILE FRONT MONTANT DU L ENCODEUR 1 EST DETECTE
+volatile float Is_First_Captured2=0;// VARIABLE POUR TESTER SILE FRONT MONTANT DU L ENCODEUR 2 EST DETECTE
+volatile float Is_First_Captured3=0;// VARIABLE POUR TESTER SILE FRONT MONTANT DU L ENCODEUR 3 EST DETECTE
+volatile float Is_First_Captured4=0;// VARIABLE POUR TESTER SILE FRONT MONTANT DU L ENCODEUR 4 EST DETECTE
+volatile float Is_First_Captured5=0;// VARIABLE POUR TESTER SILE FRONT MONTANT DU L ENCODEUR 5 EST DETECTE
+volatile float Is_First_Captured6=0;// VARIABLE POUR TESTER SILE FRONT MONTANT DU L ENCODEUR 6 EST DETECTE
+volatile int IC1_Val1=0;        //VARIABLE POUR STOCKER LA VALEUR DU  FRONT MONTANT DU L ENCODEUR 1
+volatile int IC2_Val1=0;        //VARIABLE POUR STOCKER LA VALEUR DU  FRONT MONTANT DU L ENCODEUR 2
+volatile int IC3_Val1=0;        //VARIABLE POUR STOCKER LA VALEUR DU  FRONT MONTANT DU L ENCODEUR 3
+volatile int IC4_Val1=0;        //VARIABLE POUR STOCKER LA VALEUR DU  FRONT MONTANT DU L ENCODEUR 4
+volatile int IC5_Val1=0;        //VARIABLE POUR STOCKER LA VALEUR DU  FRONT MONTANT DU L ENCODEUR 5
+volatile int IC6_Val1=0;        //VARIABLE POUR STOCKER LA VALEUR DU  FRONT MONTANT DU L ENCODEUR 6
+volatile int CountM1=0;      // NOMBRE D IMPULSION ENCODEUR 1
+volatile int CountM2=0;      // NOMBRE D IMPULSION ENCODEUR 2
+volatile int CountM3=0;      // NOMBRE D IMPULSION ENCODEUR 3
+volatile int CountM4=0;      // NOMBRE D IMPULSION ENCODEUR 4
+volatile int CountM5=0;      // NOMBRE D IMPULSION ENCODEUR 5
+volatile int CountM6=0;      // NOMBRE D IMPULSION ENCODEUR 6
+double pos1;
+double pos2;
+double pos3;
+uint8_t senddata[1];//TX UART
+uint8_t trame[11];//RX UART:: courantR1  COURANTR2 COURANTR3 /R4  DESC  COURANTMEULE  /COUNTMR1 MR2...MR4
+uint32_t BATT;       // TABLEAU POUR STOCKER VALEUR DE TENSION BATT
+
+
+volatile float VBATT;
+volatile float COURANTV1;
+volatile float COURANTV2;
+volatile float COURANTV3;
+volatile float COURANTV4;
+volatile float COURANTV5;
+volatile float COURANTV6;
+uint8_t  courantR1;
+uint8_t  courantR2;
+uint8_t  courantR3;
+uint8_t  courantR4;
+uint8_t  courantDESC ;
+uint8_t courantMeule;
+uint8_t CountMR1;
+uint8_t CountMR2;
+uint8_t CountMR3;
+uint8_t CountMR4;
+uint8_t CountDESC;
+uint16_t buffer1[3];
+uint16_t buffer2[3];
+uint8_t Start;//bouton start cycle
+/* USER CODE END PV */
+
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+/* USER CODE BEGIN PFP */
+
+
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+
+
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
+
+{
+	  if(htim->Instance==TIM8)
+	  {
+		  if(htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1)// MOTEUR 1
+
+		  	{
+			    Interruption_1();
+             //  CountM1++;
+
+
+				if (Is_First_Captured1 == 0)
+					{
+
+					  IC1_Val1=HAL_GetTick();
+					  Is_First_Captured1++;
+
+					}
+		  		else if (Is_First_Captured1 == 1)
+					{
+					  periodMotor1 = HAL_GetTick()-IC1_Val1;//periode1
+					  if(periodMotor1!=0)
+					  {
+					    speedMotor1 = frequencyM1;
+
+
+					  }
+					  Is_First_Captured1 = 0;
+
+					}
+
+		  	}
+		  if(htim->Channel == HAL_TIM_ACTIVE_CHANNEL_2)// MOTEUR 2
+
+		 		  	            {
+		 						 Initerruption_2();
+		 		            	 //CountM2+=1;
+
+		 						  if (Is_First_Captured2 == 0)
+		 							{
+		 								IC2_Val1=HAL_GetTick();
+		 								Is_First_Captured2++;
+		 							}
+		 							else if (Is_First_Captured2 == 1)
+		 							{
+		 								periodMotor2 = HAL_GetTick()-IC2_Val1;//periode1
+		 								if(periodMotor2!=0)
+		 								{
+		 								speedMotor2 = frequencyM2;
+		 								}
+
+		 								Is_First_Captured2 = 0;
+
+		 							}
+
+
+		 						  }
+	  }
+
+
+
+
+
+	  if(htim->Instance==TIM1)
+
+	  {
+
+            if(htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1)	//MOTEUR3
+
+				{
+				Interruption_3();
+  	 //CountM3++;
+
+					if (Is_First_Captured3 == 0)
+						{
+							IC3_Val1=HAL_GetTick();
+							Is_First_Captured3++;
+						}
+					else if (Is_First_Captured3 == 1)
+						{
+							periodMotor3 = HAL_GetTick()-IC3_Val1;//periode1
+							if(periodMotor3!=0)
+							{
+							  speedMotor3 = frequencyM3;
+							}
+							Is_First_Captured3 = 0;
+
+						}
+
+				}
+
+
+
+	  		if(htim->Channel==HAL_TIM_ACTIVE_CHANNEL_2)//MOTEUR4
+	  			  {
+	  			     //Interruption_4();
+	  			CountM4++;
+
+					   if (Is_First_Captured4 == 0)
+						   {
+								IC4_Val1=HAL_GetTick();
+								//timestamp1C1 = HAL_GetTick();
+								Is_First_Captured4++;
+						   }
+						else if (Is_First_Captured4== 1)
+							{
+								periodMotor4 = HAL_GetTick()-IC4_Val1;//periode1periode1*0.5 both edge
+							    if(periodMotor4!=0)
+							    {
+								  speedMotor4 = frequencyM4;
+								}
+								Is_First_Captured4 = 0;
+
+							}
+
+					}
+
+	  		if(htim->Channel==HAL_TIM_ACTIVE_CHANNEL_3)//MOTEUR5
+				{
+				     Interruption_5();
+	  			 //CountM5++;
+
+					 if (Is_First_Captured5 == 0)
+						{
+							IC5_Val1=HAL_GetTick();
+							//timestamp1C1 = HAL_GetTick();
+							Is_First_Captured5++;
+						}
+					 else if (Is_First_Captured5== 1)
+						{
+							periodMotor5 = HAL_GetTick()-IC5_Val1;//periode1
+							if(periodMotor5!=0)
+							{
+							  speedMotor5 = frequencyM5;
+							}
+							Is_First_Captured5 = 0;
+
+						}
+
+				}
+	  		if(htim->Channel==HAL_TIM_ACTIVE_CHANNEL_4)//MOTEUR6
+				{
+					Interruption_6();
+	  			//  CountM6++;
+
+					if (Is_First_Captured6 == 0)
+					{
+						IC6_Val1=HAL_GetTick();
+						//timestamp1C1 = HAL_GetTick();
+						Is_First_Captured6++;
+					}
+					else if (Is_First_Captured6== 1)
+						{
+							periodMotor6 = HAL_GetTick()-IC6_Val1;//periode1periode1*0.5 both edge
+						    if(periodMotor6!=0)
+						    {
+							  speedMotor6 =frequencyM6;
+						    }
+							Is_First_Captured6 = 0;
+
+						}
+
+	  			 }
+
+	  	}
+
+}
+
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
+{
+
+	    if (hadc->Instance == ADC1)
+	    {
+				COURANTV1=buffer1[0];
+				COURANTV2=buffer1[1];
+				COURANTV3=buffer1[2];
+
+	    }
+	    else if (hadc->Instance == ADC2)
+	    {
+
+	 	     VBATT=(BATT/ 4095)*21;//tension de la batterie
+
+	    }
+	    else if (hadc->Instance == ADC3)
+	        {
+				COURANTV4=buffer2[0];
+				COURANTV5=buffer2[1];
+				COURANTV6=buffer2[2];
+
+	        }
+
+
+
+
+
+}
+
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+  {
+	HAL_UART_Receive_IT(&huart1,trame, 11);//sizeof(buffer));// CR1/CR2/CR3/CR4/CRDES/CRMEULE/CountMR1...CountMR4
+
+  }
+
+void sendParameter()
+  {
+
+   HAL_UART_Transmit_IT(&huart1, senddata, 1);
+   HAL_Delay(1000);
+
+  }
+
+
+
+
+/* USER CODE END 0 */
+
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
+int main(void)
+{
+  /* USER CODE BEGIN 1 */
+
+  /* USER CODE END 1 */
+
+  /* MCU Configuration--------------------------------------------------------*/
+
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  HAL_Init();
+
+  /* USER CODE BEGIN Init */
+
+  /* USER CODE END Init */
+
+  /* Configure the system clock */
+  SystemClock_Config();
+
+  /* USER CODE BEGIN SysInit */
+
+  /* USER CODE END SysInit */
+
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_DMA_Init();
+  MX_TIM8_Init();
+  MX_TIM1_Init();
+  MX_USART1_UART_Init();
+  MX_ADC2_Init();
+  MX_TIM2_Init();
+  MX_TIM3_Init();
+  MX_ADC1_Init();
+  MX_ADC3_Init();
+  /* USER CODE BEGIN 2 */
+
+	HAL_UART_Receive_IT(&huart1,trame, 11);//sizeof(buffer));
+	//moteur1
+	HAL_TIM_IC_Start_IT(&htim8, TIM_CHANNEL_1);//PC6 START INTERRUPTION
+	//moteur2
+	HAL_TIM_IC_Start_IT(&htim8, TIM_CHANNEL_2);//PC7
+
+	//moteur3
+	HAL_TIM_IC_Start_IT(&htim1, TIM_CHANNEL_1);//PE9
+	//moteur4
+	HAL_TIM_IC_Start_IT(&htim1, TIM_CHANNEL_2);//PE11
+	//moteur5
+	HAL_TIM_IC_Start_IT(&htim1, TIM_CHANNEL_3);//PE13
+	//moteur6
+	HAL_TIM_IC_Start_IT(&htim1, TIM_CHANNEL_4);//PE14
+
+	HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);//MT1
+	HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_2);//MT2
+	HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_3);//MT3
+	HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_4);//MT4
+	HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);//MT5
+	HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_2);//MT6
+
+	HAL_ADC_Start_DMA(&hadc1,(uint32_t *)buffer1, 3);// V1 V2 V3
+	HAL_ADC_Start_DMA(&hadc2,&BATT, 1);
+	HAL_ADC_Start_DMA(&hadc3,(uint32_t *)buffer2, 3);// V4 V5 V6
+
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+
+  }
+  /* USER CODE END 3 */
+}
+
+/**
+  * @brief System Clock Configuration
+  * @retval None
+  */
+void SystemClock_Config(void)
+{
+  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+  /** Configure the main internal regulator output voltage
+  */
+  __HAL_RCC_PWR_CLK_ENABLE();
+  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+
+  /** Initializes the RCC Oscillators according to the specified parameters
+  * in the RCC_OscInitTypeDef structure.
+  */
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+  RCC_OscInitStruct.PLL.PLLM = 4;
+  RCC_OscInitStruct.PLL.PLLN = 216;
+  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+  RCC_OscInitStruct.PLL.PLLQ = 3;
+  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Activate the Over-Drive mode
+  */
+  if (HAL_PWREx_EnableOverDrive() != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Initializes the CPU, AHB and APB buses clocks
+  */
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
+
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_7) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+/* USER CODE BEGIN 4 */
+
+/* USER CODE END 4 */
+
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  /* USER CODE BEGIN Error_Handler_Debug */
+  /* User can add his own implementation to report the HAL error return state */
+  __disable_irq();
+  while (1)
+  {
+  }
+  /* USER CODE END Error_Handler_Debug */
+}
+
+#ifdef  USE_FULL_ASSERT
+/**
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(uint8_t *file, uint32_t line)
+{
+  /* USER CODE BEGIN 6 */
+  /* User can add his own implementation to report the file name and line number,
+     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+  /* USER CODE END 6 */
+}
+#endif /* USE_FULL_ASSERT */

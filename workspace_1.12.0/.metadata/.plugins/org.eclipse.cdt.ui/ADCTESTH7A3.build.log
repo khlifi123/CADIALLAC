@@ -1,0 +1,18 @@
+13:58:57 **** Incremental Build of configuration Debug for project ADCTESTH7A3 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_hal_msp.d" -MT"Core/Src/stm32h7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_hal_msp.o"
+arm-none-eabi-gcc -o "ADCTESTH7A3.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\ADCTESTH7A3\STM32H7A3ZITXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADCTESTH7A3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADCTESTH7A3.elf
+ 
+arm-none-eabi-size   ADCTESTH7A3.elf 
+arm-none-eabi-objdump -h -S  ADCTESTH7A3.elf  > "ADCTESTH7A3.list"
+   text	   data	    bss	    dec	    hex	filename
+  23816	     24	   1704	  25544	   63c8	ADCTESTH7A3.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADCTESTH7A3.list
+ 
+
+13:58:59 Build Finished. 0 errors, 0 warnings. (took 2s.216ms)
+

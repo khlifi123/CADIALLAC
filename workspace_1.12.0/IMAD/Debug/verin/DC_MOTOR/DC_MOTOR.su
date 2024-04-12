@@ -1,0 +1,6 @@
+../verin/DC_MOTOR/DC_MOTOR.c:14:6:DC_MOTOR_Init	168	static
+../verin/DC_MOTOR/DC_MOTOR.c:80:6:DC_MOTOR_Set_Direction	16	static
+../verin/DC_MOTOR/DC_MOTOR.c:95:6:DC_MOTOR_Start	16	static
+../verin/DC_MOTOR/DC_MOTOR.c:132:6:DC_MOTOR_Set_Speed	16	static
+../verin/DC_MOTOR/DC_MOTOR.c:154:6:DC_Stand_BY	16	static
+../verin/DC_MOTOR/DC_MOTOR.c:180:6:Frein	16	static

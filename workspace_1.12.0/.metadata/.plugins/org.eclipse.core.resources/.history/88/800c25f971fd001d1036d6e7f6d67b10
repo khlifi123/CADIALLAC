@@ -1,0 +1,227 @@
+/*
+ * asservissement.c
+ *
+ *  Created on: Apr 24, 2023
+ *      Author: m-ali.khlifi-ext
+ */
+
+#include "asservissement.h"
+
+#include "main.h"
+#include"stdio.h"
+#include"gpio.h"
+#include"stdlib.h"
+
+
+#define PWM_PERIOD 100
+volatile float um1=0;
+volatile float u1m1=0;
+volatile float e1m1=0;
+
+volatile float um2=0;
+volatile float u1m2=0;
+volatile float e1m2=0;
+
+volatile float um3=0;
+volatile float u1m3=0;
+volatile float e1m3=0;
+
+volatile float um4=0;
+volatile float u1m4=0;
+volatile float e1m4=0;
+
+volatile float um5=0;
+volatile float u1m5=0;
+volatile float e1m5=0;
+
+volatile float um6=0;
+volatile float u1m6=0;
+volatile float e1m6=0;
+
+volatile float u1p1=0;
+volatile float up1=0;
+volatile float e1p1=0;
+volatile  double ep1=0;
+float speedM1;
+float speedM2;
+float speedM3;
+float speedM4;
+float speedM5;
+float speedM6;
+
+float es=0;
+float es1=0;
+float es2=0;
+
+extern int P;
+void regulation_Mt1( float vitessem1,float  vitessem2, float vitesseRef,float tensionMax,volatile int posactuelle,double posRef)//reguler vitesse1 %vitesse reference et synchroniser avec vitesse2
+{
+	    //es=vitessem2-vitessem1;//erreur de synchronisation
+	    float em1=vitesseRef-vitessem1+es;
+         ep1= posRef-posactuelle;
+
+         if (ep1<0){
+                	  ep1=-ep1;
+                  }
+
+        um1=(1-P)*u1m1+0.006391*em1-0.001931*e1m1; //commande
+        up1=P*u1p1+0.1*ep1-0.01*e1p1;
+		u1m1=um1;
+		e1m1=em1;
+		u1p1=up1;
+		e1p1=ep1;
+       speedM1=um1*8.2;
+	   float cm1=((um1 / tensionMax) * PWM_PERIOD);
+	   float cmp=((up1 / tensionMax) * PWM_PERIOD);
+		if (cm1 > PWM_PERIOD)
+		{
+			cm1 = PWM_PERIOD;
+		}
+		if (cmp > PWM_PERIOD)
+				{
+					cmp = PWM_PERIOD;
+				}
+
+		if (cm1 <0)
+		{
+			 cm1=0;
+		}
+
+
+
+		TIM1->CCR1=(1-P)*cm1+P*cmp;
+
+
+
+}
+void regulation_Mt2( float vitessem2, float  vitessem1,float vf,float tensionMax)
+
+{
+	es=vitessem2-vitessem1;
+	float em2=vf-vitessem2-es;
+	um2=u1m2+0.000639*em2-0.0001931*e1m2; //commande
+	u1m2=um2;
+	e1m2=em2;
+
+    speedM2=um2*8.2;
+	float cm=((um2 / tensionMax) * PWM_PERIOD);
+
+	if (cm > PWM_PERIOD)
+	{
+		cm = PWM_PERIOD;
+	}
+
+	if (cm <0)
+	{
+		cm = 0;
+	}
+
+	TIM1->CCR2=cm;
+}
+
+void regulation_Mt3( float vitessem3, float  vitessem4,float vf,float tensionMax)
+
+{   es1=vitessem4-vitessem3;
+	float em3=vf-vitessem3+es1;
+
+	um3=u1m3+0.000639*em3-0.0001931*e1m3; //commande
+	u1m3=um3;
+	e1m3=em3;
+
+    speedM3=um3*8.2;
+	float cm3=((um3 / tensionMax) * PWM_PERIOD);
+
+	if (cm3 > PWM_PERIOD)
+	{
+		cm3 = PWM_PERIOD;
+	}
+
+	if (cm3 <0)
+	{
+		cm3 = 0;
+	}
+
+	TIM1->CCR3=cm3;
+}
+void regulation_Mt4( float vitessem4,float  vitessem3,float vf,float tensionMax)
+
+{es1=vitessem4-vitessem3;
+	float em4=vf-vitessem4;
+
+	um4=u1m4+0.000639*em4-0.0001931*e1m4-es1; //commande
+	u1m4=um4;
+	e1m4=em4;
+
+    speedM4=um4*8.2;
+	float cm4=((um4 / tensionMax) * PWM_PERIOD);
+
+	if (cm4 > PWM_PERIOD)
+	{
+		cm4 = PWM_PERIOD;
+	}
+
+	if (cm4 <0)
+	{
+		cm4 = 0;
+	}
+
+	TIM3->CCR1=cm4;
+}
+
+
+void regulation_Mt5( float vitessem5,float  vitessem6,float vf,float tensionMax)
+
+{es2=vitessem6-vitessem5;
+	float em5=vf-vitessem5+es2;
+
+	um5=u1m5+0.000639*em5-0.0001931*e1m5; //commande
+	u1m5=um5;
+	e1m5=em5;
+
+    speedM5=um5*8.2;
+	float cm5=((um5 / tensionMax) * PWM_PERIOD);
+
+	if (cm5 > PWM_PERIOD)
+	{
+		cm5 = PWM_PERIOD;
+	}
+
+	if (cm5 <0)
+	{
+		cm5 = 0;
+	}
+
+	TIM3->CCR2=cm5;
+}
+
+void regulation_Mt6( float vitessem6,float  vitessem5,float vf,float tensionMax)
+
+{es2=vitessem6-vitessem5;
+	float em6=vf-vitessem6+es2;
+
+	um6=u1m6+0.000639*em6-0.0001931*e1m6; //commande
+	u1m6=um6;
+	e1m6=em6;
+
+    speedM6=um6*8.2;
+	float cm6=((um6 / tensionMax) * PWM_PERIOD);
+
+	if (cm6 > PWM_PERIOD)
+	{
+		cm6 = PWM_PERIOD;
+	}
+
+	if (cm6 <0)
+	{
+		cm6 = 0;
+	}
+
+	TIM3->CCR3=cm6;
+}
+
+void setcommandzero(){
+um1=0;
+um2=0;
+TIM1->CCR2 = 0;
+TIM1->CCR1 = 0;
+}

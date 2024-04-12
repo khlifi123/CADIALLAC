@@ -1,0 +1,4 @@
+../Core/Src/interruption.c:25:8:Interruption_1	8	static
+../Core/Src/interruption.c:44:8:Interruption_2	8	static
+../Core/Src/interruption.c:60:8:Interruption_3	8	static
+../Core/Src/interruption.c:81:8:Interruption_4	8	static

@@ -1,0 +1,229 @@
+/*
+ * asservissement.c
+ *
+ *  Created on: Apr 24, 2023
+ *      Author: m-ali.khlifi-ext
+ */
+
+#include "asservissement.h"
+#include "main.h"
+#include"stdio.h"
+#include"gpio.h"
+#include"stdlib.h"
+
+#define PWM_PERIOD  100
+volatile float TensionMt1=0;     //TENSION de command MOTEUR1
+volatile float Last_TesnionMt1=0;//tension de command moteur1 iteration  i+1
+volatile float Last_ErreurMt1=0; // ERREUR i+1 du moteur1
+
+volatile float TensionMt2=0;     //TENSION de command MOTEUR2
+volatile float Last_TesnionMt2=0;//tension de command moteur2 iteration  i+1
+volatile float Last_ErreurMt2=0; // ERREUR i+1 du moteur2
+
+volatile float TensionMt3=0;     //TENSION de command MOTEUR3
+volatile float Last_TesnionMt3=0;//tension de command moteur3 iteration  i+1
+volatile float Last_ErreurMt3=0; // ERREUR i+1 du moteur3
+
+volatile float TensionMt4=0;     //TENSION de command MOTEUR4
+volatile float Last_TesnionMt4=0;//tension de command moteur4 iteration  i+1
+volatile float Last_ErreurMt4=0; // ERREUR i+1 du moteur4
+
+volatile float TensionMt5=0;     //TENSION de command MOTEUR5
+volatile float Last_TesnionMt5=0;//tension de command moteur5 iteration  i+1
+volatile float Last_ErreurMt5=0; // ERREUR i+1 du moteur5
+
+volatile float TensionMt6=0;     //TENSION de command MOTEUR6
+volatile float Last_TesnionMt6=0;//tension de command moteur6 iteration  i+1
+volatile float Last_ErreurMt6=0; // ERREUR i+1 du moteur6
+
+float ErreurSynchronisationM1_M2=0;//erreur de synchronisation entre moteur1 et 2
+float ErreurSynchronisationM3_M4=0;//erreur de synchronisation entre 3 et 4
+float ErreurSynchronisationM5_M6=0;//erreur de synchronisation entre 5 et 6
+extern double CountM1;
+extern double CountM2;
+double r=0;
+void Regulation_Mt1( float vitessem1,float  vitessem2, float vitesseRef,float tensionMax)//reguler vitesse1 %vitesse reference et synchroniser avec vitesse2
+{
+	   ErreurSynchronisationM1_M2=vitessem2-vitessem1;//erreur de synchronisation
+	   float ErreurMt1=vitesseRef-vitessem1+ErreurSynchronisationM1_M2;
+	   r=abs(CountM1-CountM2);
+       TensionMt1=Last_TesnionMt1+0.006391*ErreurMt1-0.001931*Last_ErreurMt1; //commande
+       //up1=P*u1p1+0.1*ep1-0.01*e1p1;
+	   Last_TesnionMt1=TensionMt1;
+	   Last_ErreurMt1=ErreurMt1;
+	   float CommandeMT1=((TensionMt1 / tensionMax) * PWM_PERIOD);
+		if (CommandeMT1 > PWM_PERIOD)
+		{
+			CommandeMT1 = PWM_PERIOD;
+		}
+
+		if (CommandeMT1 <0)
+		{
+			 CommandeMT1=0;
+		}
+		if (r >2)
+		{
+			 CommandeMT1=0;
+		}
+		TIM1->CCR1=CommandeMT1;
+
+
+
+}
+void Regulation_Mt2( float vitessem2, float  vitessem1,float vf,float tensionMax)
+
+{
+	   r=abs(CountM1-CountM2);
+
+	ErreurSynchronisationM1_M2=vitessem2-vitessem1;
+	float ErreurMt2=vf-vitessem2-ErreurSynchronisationM1_M2;
+	TensionMt2=Last_TesnionMt2+0.00639*ErreurMt2-0.001931*Last_ErreurMt2; //commande
+	Last_TesnionMt2=TensionMt2;
+	Last_ErreurMt2=ErreurMt2;
+
+	float CommandeMt2=((TensionMt2 / tensionMax) * PWM_PERIOD);
+
+	if (CommandeMt2 > PWM_PERIOD)
+	{
+		CommandeMt2 = PWM_PERIOD;
+	}
+
+	if (CommandeMt2 <0)
+	{
+		CommandeMt2 = 0;
+	}
+	if (r >2)
+			{
+				 CommandeMt2=0;
+			}
+	TIM1->CCR2=CommandeMt2;
+}
+
+void Regulation_Mt3( float vitessem3, float  vitessem4,float vf,float tensionMax)
+
+{
+	ErreurSynchronisationM3_M4=vitessem4-vitessem3;
+	float ErreurMt3=vf-vitessem3+ErreurSynchronisationM3_M4;
+    TensionMt3=Last_TesnionMt3+0.00639*ErreurMt3-0.001931*Last_ErreurMt3; //commande
+	Last_TesnionMt3=TensionMt3;
+	Last_ErreurMt3=ErreurMt3;
+
+	float CommandeMt3=((TensionMt3 / tensionMax) * PWM_PERIOD);
+
+	if (CommandeMt3 > PWM_PERIOD)
+	{
+		CommandeMt3 = PWM_PERIOD;
+	}
+
+	if (CommandeMt3 <0)
+	{
+		CommandeMt3 = 0;
+	}
+
+	TIM1->CCR3=CommandeMt3;
+}
+void Regulation_Mt4( float vitessem4,float  vitessem3,float vf,float tensionMax)
+
+{
+	ErreurSynchronisationM3_M4=vitessem4-vitessem3;
+	float ErreurMt4=vf-vitessem4-ErreurSynchronisationM3_M4;
+
+	TensionMt4=Last_TesnionMt4+0.00639*ErreurMt4-0.001931*Last_ErreurMt4; //commande
+	Last_TesnionMt4=TensionMt4;
+	Last_ErreurMt4=ErreurMt4;
+
+	float CommandeMt4=((TensionMt4 / tensionMax) * PWM_PERIOD);
+
+	if (CommandeMt4 > PWM_PERIOD)
+	{
+		CommandeMt4 = PWM_PERIOD;
+	}
+
+	if (CommandeMt4 <0)
+	{
+		CommandeMt4 = 0;
+	}
+
+	TIM3->CCR1=CommandeMt4;
+}
+
+
+void Regulation_Mt5( float vitessem5,float  vitessem6,float vf,float tensionMax)
+
+{
+
+	//r=abs(CountM6-CountM5);
+
+
+	ErreurSynchronisationM5_M6=vitessem6-vitessem5;
+	float ErreurMt5=vf-vitessem5+ErreurSynchronisationM5_M6;
+
+
+	TensionMt5=Last_TesnionMt5+0.00639*ErreurMt5-0.001931*Last_ErreurMt5; //commande
+	Last_TesnionMt5=TensionMt5;
+	Last_ErreurMt5=ErreurMt5;
+
+	float CommandeMt5=((TensionMt5 / tensionMax) * PWM_PERIOD);
+
+	if (CommandeMt5 > PWM_PERIOD)
+	{
+		CommandeMt5 = PWM_PERIOD;
+	}
+
+	if (CommandeMt5 <0)
+	{
+		CommandeMt5 = 0;
+	}
+
+	TIM3->CCR2=CommandeMt5;
+
+}
+
+void Regulation_Mt6( float vitessem6,float  vitessem5,float vf,float tensionMax)
+
+{
+
+
+
+	    ErreurSynchronisationM5_M6=vitessem6-vitessem5;
+		float ErreurMt6=vf-vitessem6-ErreurSynchronisationM5_M6;
+
+
+
+	TensionMt6=Last_TesnionMt6+0.00639*ErreurMt6-0.001931*Last_ErreurMt6; //commande
+	Last_TesnionMt6=TensionMt6;
+	Last_ErreurMt6=ErreurMt6;
+
+	float CommandeMt6=((TensionMt6 / tensionMax) * PWM_PERIOD);
+
+	if (CommandeMt6 > PWM_PERIOD)
+	{
+		CommandeMt6 = PWM_PERIOD;
+	}
+
+	if (CommandeMt6 <0)
+	{
+		CommandeMt6 = 0;
+	}
+
+	TIM3->CCR3=CommandeMt6;
+
+
+
+}
+
+void Set_Commande_Zero(){
+TensionMt1=0;
+TensionMt2=0;
+TensionMt3=0;
+TensionMt4=0;
+TensionMt5=0;
+TensionMt6=0;
+TIM1->CCR1 =0;//MT1
+TIM1->CCR2 =0;//MT2
+TIM1->CCR3 =0;//MT3
+TIM3->CCR1 =0;//MT4
+TIM3->CCR2 =0;//MT5
+TIM3->CCR3 =0;//MT6
+HAL_Delay(2000);
+}

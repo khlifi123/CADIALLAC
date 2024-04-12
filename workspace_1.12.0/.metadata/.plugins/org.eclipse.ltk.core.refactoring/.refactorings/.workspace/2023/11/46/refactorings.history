@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;PANDROL/Core/Src/interruption&apos;" deleteContents="false" description="Delete resource &apos;PANDROL/Core/Src/interruption&apos;" element1="/PANDROL/Core/Src/interruption" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1699891096750"/>
+</session>

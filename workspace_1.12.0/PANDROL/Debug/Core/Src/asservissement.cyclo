@@ -1,0 +1,8 @@
+asservissement.c:45:6:Initialization	1
+asservissement.c:70:6:Cleanup	1
+asservissement.c:93:6:Regulation_Mt1	2
+asservissement.c:118:6:Regulation_Mt2	2
+asservissement.c:147:6:Regulation_Mt3	2
+asservissement.c:174:6:Regulation_Mt4	2
+asservissement.c:205:6:Regulation_Mt5	2
+asservissement.c:239:6:Regulation_Mt6	2

@@ -1,0 +1,93 @@
+/*
+ * asservissement.c
+ *
+ *  Created on: Apr 24, 2023
+ *      Author: m-ali.khlifi-ext
+ */
+
+#include "asservissement.h"
+
+#include "main.h"
+#include"stdio.h"
+
+
+#define PWM_PERIOD 100
+volatile float um1=0;
+volatile float u1m1=0;
+volatile float e1m1=0;
+volatile float um2=0;
+volatile float u1m2=0;
+volatile float e1m2=0;
+float speedM1;
+float speedM2;
+
+
+void regulation_Mt1( float vitessem1,float  es, float vitesseRef,float tensionMax)//reguler vitesse1 %vitesse reference et synchroniser avec vitesse2
+
+{
+
+	    float em1=vitesseRef-vitessem1;
+	   // if(vitessem1==vitesseRef && es==0)printf("le_systeme_est_bien_asservi\n");
+	   // else{
+	    //printf("not ok\n");
+        um1=u1m1+0.000639*em1-0.0001931*e1m1; //commande
+		u1m1=um1;
+		e1m1=em1;
+
+       speedM1=um1*20,5;
+	   float cm1=((um1 / tensionMax) * PWM_PERIOD);
+
+		if (cm1 > PWM_PERIOD)
+		{
+			cm1 = PWM_PERIOD;
+		}
+
+		if (cm1 <0)
+		{
+			cm1 = 0;
+		}
+
+		TIM1->CCR1=cm1;
+		HAL_Delay(4);
+
+
+
+}
+void regulation_Mt2( float vitessem2, float  es,float vf,float tensionMax)
+
+{
+
+	float em2=vf-vitessem2;
+	//if(vitessem2==vf && es==0)printf("le_systeme_est_bien_asservi\n");
+	//else{
+	//printf("not_ok\n");
+	um2=u1m2+0.000639*em2-0.0001931*e1m2; //commande
+	u1m2=um2;
+	e1m2=em2;
+
+    speedM2=um2*21;
+	float cm=((um2 / tensionMax) * PWM_PERIOD);
+
+	if (cm > PWM_PERIOD)
+	{
+		cm = PWM_PERIOD;
+	}
+
+	if (cm <0)
+	{
+		cm = 0;
+	}
+
+	TIM1->CCR2=cm;
+	HAL_Delay(4);
+
+}
+
+
+
+void setcommandzero(){
+um1=0;
+um2=0;
+TIM1->CCR2 = 0;
+TIM1->CCR1 = 0;
+}

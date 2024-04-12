@@ -1,0 +1,307 @@
+2024-01-14 17:07:40,759 [INFO] Gpio:273 - dependency for GPIO [RCC, USART1]
+2024-01-14 17:14:55,070 [INFO] Gpio:273 - dependency for GPIO [RCC, USART1]
+2024-01-14 17:14:55,102 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-01-14 17:25:33,329 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 701105816 Bytes (1073741824)
+2024-01-14 17:25:34,291 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 639610280 Bytes (1073741824)
+2024-01-14 17:25:36,405 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 764009136 Bytes (1073741824)
+2024-01-14 17:25:36,673 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-01-14 17:25:36,673 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-01-14 17:25:36,673 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-01-14 17:25:36,673 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-01-14 17:25:36,673 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2024-01-14 17:25:36,920 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp_save
+2024-01-14 17:25:37,042 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp
+2024-01-14 17:25:37,127 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp_save
+2024-01-14 17:25:37,212 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp
+2024-01-14 17:25:37,303 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c_save
+2024-01-14 17:25:37,565 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c
+2024-01-14 17:25:37,584 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h_save
+2024-01-14 17:25:37,656 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h
+2024-01-14 17:25:37,725 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c_save
+2024-01-14 17:25:37,846 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c
+2024-01-14 17:25:37,877 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp_save
+2024-01-14 17:25:37,941 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp
+2024-01-14 17:25:37,988 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-01-14 17:25:38,072 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h
+2024-01-14 17:25:38,110 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-01-14 17:25:38,157 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h_save
+2024-01-14 17:25:38,242 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h
+2024-01-14 17:25:38,273 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c_save
+2024-01-14 17:25:38,442 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c
+2024-01-14 17:25:40,250 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 1211mS.
+2024-01-14 17:25:40,266 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-01-14 17:25:40,695 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2024-01-14 17:25:43,002 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2736mS.
+2024-01-14 17:25:43,002 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-14 17:25:43,017 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-14 17:33:55,120 [INFO] Gpio:273 - dependency for GPIO [RCC, USART1]
+2024-01-14 17:33:55,256 [INFO] Gpio:273 - dependency for GPIO [RCC, USART1]
+2024-01-14 17:33:59,501 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 670304968 Bytes (1073741824)
+2024-01-14 17:34:01,039 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 695997128 Bytes (1073741824)
+2024-01-14 17:34:02,598 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 735316680 Bytes (1073741824)
+2024-01-14 17:34:02,792 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-01-14 17:34:02,792 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-01-14 17:34:02,792 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-01-14 17:34:02,792 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-01-14 17:34:02,792 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2024-01-14 17:34:02,939 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp_save
+2024-01-14 17:34:03,008 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp
+2024-01-14 17:34:03,046 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp_save
+2024-01-14 17:34:03,124 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp
+2024-01-14 17:34:03,189 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c_save
+2024-01-14 17:34:03,418 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c
+2024-01-14 17:34:03,449 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h_save
+2024-01-14 17:34:03,539 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h
+2024-01-14 17:34:03,579 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c_save
+2024-01-14 17:34:03,695 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c
+2024-01-14 17:34:03,710 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp_save
+2024-01-14 17:34:03,773 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp
+2024-01-14 17:34:03,811 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-01-14 17:34:03,895 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h
+2024-01-14 17:34:03,926 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-01-14 17:34:03,957 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h_save
+2024-01-14 17:34:04,058 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h
+2024-01-14 17:34:04,080 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c_save
+2024-01-14 17:34:04,211 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c
+2024-01-14 17:34:05,609 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 813mS.
+2024-01-14 17:34:05,609 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-01-14 17:34:06,141 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2024-01-14 17:34:08,321 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2712mS.
+2024-01-14 17:34:08,321 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-14 17:34:08,331 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-14 17:40:35,818 [INFO] Gpio:273 - dependency for GPIO [RCC, USART1]
+2024-01-14 17:40:35,847 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-01-14 17:40:37,589 [INFO] Gpio:273 - dependency for GPIO [RCC, USART1]
+2024-01-14 17:40:48,597 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 809256056 Bytes (1073741824)
+2024-01-14 17:40:49,625 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 834944120 Bytes (1073741824)
+2024-01-14 17:40:50,889 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 874267768 Bytes (1073741824)
+2024-01-14 17:40:51,169 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-01-14 17:40:51,169 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-01-14 17:40:51,169 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-01-14 17:40:51,170 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-01-14 17:40:51,173 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2024-01-14 17:40:51,389 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp_save
+2024-01-14 17:40:51,499 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp
+2024-01-14 17:40:51,544 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp_save
+2024-01-14 17:40:51,700 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp
+2024-01-14 17:40:51,824 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c_save
+2024-01-14 17:40:51,987 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c
+2024-01-14 17:40:52,007 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h_save
+2024-01-14 17:40:52,095 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h
+2024-01-14 17:40:52,147 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c_save
+2024-01-14 17:40:52,256 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c
+2024-01-14 17:40:52,267 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp_save
+2024-01-14 17:40:52,357 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp
+2024-01-14 17:40:52,395 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-01-14 17:40:52,496 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h
+2024-01-14 17:40:52,528 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-01-14 17:40:52,566 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h_save
+2024-01-14 17:40:52,661 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h
+2024-01-14 17:40:52,681 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c_save
+2024-01-14 17:40:52,844 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c
+2024-01-14 17:40:54,085 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 780mS.
+2024-01-14 17:40:54,090 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-01-14 17:40:54,552 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2024-01-14 17:40:56,607 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2517mS.
+2024-01-14 17:40:56,610 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 2mS.
+2024-01-14 17:40:56,616 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-14 17:45:54,759 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 734900312 Bytes (1073741824)
+2024-01-14 17:45:56,161 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 760552704 Bytes (1073741824)
+2024-01-14 17:45:57,643 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 799350032 Bytes (1073741824)
+2024-01-14 17:45:57,837 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-01-14 17:45:57,837 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-01-14 17:45:57,838 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-01-14 17:45:57,838 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-01-14 17:45:57,840 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2024-01-14 17:45:58,127 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp_save
+2024-01-14 17:45:58,214 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp
+2024-01-14 17:45:58,259 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp_save
+2024-01-14 17:45:58,358 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp
+2024-01-14 17:45:58,433 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c_save
+2024-01-14 17:45:58,536 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c
+2024-01-14 17:45:58,584 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h_save
+2024-01-14 17:45:58,677 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h
+2024-01-14 17:45:58,731 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c_save
+2024-01-14 17:45:58,853 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c
+2024-01-14 17:45:58,869 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp_save
+2024-01-14 17:45:58,943 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp
+2024-01-14 17:45:58,985 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-01-14 17:45:59,076 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h
+2024-01-14 17:45:59,115 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-01-14 17:45:59,148 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h_save
+2024-01-14 17:45:59,227 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h
+2024-01-14 17:45:59,247 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c_save
+2024-01-14 17:45:59,407 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c
+2024-01-14 17:46:00,720 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 832mS.
+2024-01-14 17:46:00,725 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-01-14 17:46:01,146 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2024-01-14 17:46:03,147 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2421mS.
+2024-01-14 17:46:03,149 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 2mS.
+2024-01-14 17:46:03,156 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-14 17:54:26,997 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-01-14 17:54:32,362 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 828755176 Bytes (1073741824)
+2024-01-14 17:54:34,129 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 854443240 Bytes (1073741824)
+2024-01-14 17:54:36,191 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 683614944 Bytes (1073741824)
+2024-01-14 17:54:36,438 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-01-14 17:54:36,438 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-01-14 17:54:36,438 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-01-14 17:54:36,438 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-01-14 17:54:36,438 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2024-01-14 17:54:36,642 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp_save
+2024-01-14 17:54:36,753 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp
+2024-01-14 17:54:36,803 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp_save
+2024-01-14 17:54:36,955 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp
+2024-01-14 17:54:37,035 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c_save
+2024-01-14 17:54:37,275 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c
+2024-01-14 17:54:37,305 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h_save
+2024-01-14 17:54:37,388 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h
+2024-01-14 17:54:37,432 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c_save
+2024-01-14 17:54:37,548 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c
+2024-01-14 17:54:37,548 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp_save
+2024-01-14 17:54:37,617 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp
+2024-01-14 17:54:37,648 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-01-14 17:54:37,748 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h
+2024-01-14 17:54:37,779 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-01-14 17:54:37,817 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h_save
+2024-01-14 17:54:37,900 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h
+2024-01-14 17:54:37,917 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c_save
+2024-01-14 17:54:38,064 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c
+2024-01-14 17:54:39,451 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 841mS.
+2024-01-14 17:54:39,451 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-01-14 17:54:39,937 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2024-01-14 17:54:41,854 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2403mS.
+2024-01-14 17:54:41,854 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-14 17:54:41,869 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-14 18:01:47,514 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 784708264 Bytes (1073741824)
+2024-01-14 18:01:48,295 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 810462376 Bytes (1073741824)
+2024-01-14 18:01:49,668 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 676841552 Bytes (1073741824)
+2024-01-14 18:01:49,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-01-14 18:01:49,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-01-14 18:01:49,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-01-14 18:01:49,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-01-14 18:01:49,961 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2024-01-14 18:01:50,197 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp_save
+2024-01-14 18:01:50,296 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp
+2024-01-14 18:01:50,328 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp_save
+2024-01-14 18:01:50,429 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp
+2024-01-14 18:01:50,519 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c_save
+2024-01-14 18:01:50,758 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c
+2024-01-14 18:01:50,773 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h_save
+2024-01-14 18:01:50,870 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h
+2024-01-14 18:01:50,929 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c_save
+2024-01-14 18:01:51,039 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c
+2024-01-14 18:01:51,054 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp_save
+2024-01-14 18:01:51,117 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp
+2024-01-14 18:01:51,155 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-01-14 18:01:51,239 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h
+2024-01-14 18:01:51,271 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-01-14 18:01:51,317 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h_save
+2024-01-14 18:01:51,402 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h
+2024-01-14 18:01:51,433 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c_save
+2024-01-14 18:01:51,587 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c
+2024-01-14 18:01:52,898 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 795mS.
+2024-01-14 18:01:52,898 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-01-14 18:01:53,403 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2024-01-14 18:01:55,349 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2451mS.
+2024-01-14 18:01:55,349 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-14 18:01:55,361 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-14 18:05:17,221 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 714264008 Bytes (1073741824)
+2024-01-14 18:05:18,949 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 739683632 Bytes (1073741824)
+2024-01-14 18:05:21,013 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 778749384 Bytes (1073741824)
+2024-01-14 18:05:21,247 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-01-14 18:05:21,247 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-01-14 18:05:21,248 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-01-14 18:05:21,248 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-01-14 18:05:21,250 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2024-01-14 18:05:21,474 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp_save
+2024-01-14 18:05:21,550 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp
+2024-01-14 18:05:21,595 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp_save
+2024-01-14 18:05:21,680 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp
+2024-01-14 18:05:21,755 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c_save
+2024-01-14 18:05:21,859 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c
+2024-01-14 18:05:21,881 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h_save
+2024-01-14 18:05:22,013 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h
+2024-01-14 18:05:22,071 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c_save
+2024-01-14 18:05:22,186 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c
+2024-01-14 18:05:22,201 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp_save
+2024-01-14 18:05:22,286 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp
+2024-01-14 18:05:22,333 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-01-14 18:05:22,429 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h
+2024-01-14 18:05:22,457 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-01-14 18:05:22,491 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h_save
+2024-01-14 18:05:22,571 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h
+2024-01-14 18:05:22,594 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c_save
+2024-01-14 18:05:22,765 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c
+2024-01-14 18:05:24,125 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 827mS.
+2024-01-14 18:05:24,129 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-01-14 18:05:24,478 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2024-01-14 18:05:27,393 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3264mS.
+2024-01-14 18:05:27,400 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 6mS.
+2024-01-14 18:05:27,407 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-14 18:07:20,833 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 667968608 Bytes (1073741824)
+2024-01-14 18:07:21,583 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 694132024 Bytes (1073741824)
+2024-01-14 18:07:22,990 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 733977912 Bytes (1073741824)
+2024-01-14 18:07:23,184 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-01-14 18:07:23,184 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-01-14 18:07:23,184 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-01-14 18:07:23,184 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-01-14 18:07:23,187 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2024-01-14 18:07:23,495 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp_save
+2024-01-14 18:07:23,566 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp
+2024-01-14 18:07:23,608 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp_save
+2024-01-14 18:07:23,688 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp
+2024-01-14 18:07:23,754 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c_save
+2024-01-14 18:07:23,857 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c
+2024-01-14 18:07:23,880 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h_save
+2024-01-14 18:07:24,005 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h
+2024-01-14 18:07:24,066 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c_save
+2024-01-14 18:07:24,181 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c
+2024-01-14 18:07:24,197 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp_save
+2024-01-14 18:07:24,275 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp
+2024-01-14 18:07:24,318 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-01-14 18:07:24,420 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h
+2024-01-14 18:07:24,451 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-01-14 18:07:24,484 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h_save
+2024-01-14 18:07:24,566 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h
+2024-01-14 18:07:24,587 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c_save
+2024-01-14 18:07:24,731 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c
+2024-01-14 18:07:26,092 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 821mS.
+2024-01-14 18:07:26,096 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-01-14 18:07:26,370 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2024-01-14 18:07:28,593 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2496mS.
+2024-01-14 18:07:28,596 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 3mS.
+2024-01-14 18:07:28,605 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-14 18:10:03,069 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-01-14 18:10:12,659 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 854253848 Bytes (1073741824)
+2024-01-14 18:10:13,579 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 680799840 Bytes (1073741824)
+2024-01-14 18:10:14,800 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 658319976 Bytes (1073741824)
+2024-01-14 18:10:15,038 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-01-14 18:10:15,038 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-01-14 18:10:15,038 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-01-14 18:10:15,039 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-01-14 18:10:15,041 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2024-01-14 18:10:15,314 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp_save
+2024-01-14 18:10:15,394 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\license.tmp
+2024-01-14 18:10:15,440 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp_save
+2024-01-14 18:10:15,531 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\gpio.tmp
+2024-01-14 18:10:15,647 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c_save
+2024-01-14 18:10:15,784 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_it.c
+2024-01-14 18:10:15,808 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h_save
+2024-01-14 18:10:15,933 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_it.h
+2024-01-14 18:10:16,001 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c_save
+2024-01-14 18:10:16,140 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\stm32f4xx_hal_msp.c
+2024-01-14 18:10:16,157 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp_save
+2024-01-14 18:10:16,221 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\MXTmpFiles\system.tmp
+2024-01-14 18:10:16,260 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-01-14 18:10:16,350 [INFO] CodeEngine:335 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\stm32f4xx_hal_conf.h
+2024-01-14 18:10:16,380 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-01-14 18:10:16,462 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h_save
+2024-01-14 18:10:16,547 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Inc\main.h
+2024-01-14 18:10:16,567 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c_save
+2024-01-14 18:10:16,727 [INFO] CodeEngine:279 - Generated code: C:\Users\m-ali.khlifi-ext\STM32CubeIDE\workspace_1.12.0\UART1\Core\Src\main.c
+2024-01-14 18:10:18,061 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 823mS.
+2024-01-14 18:10:18,066 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-01-14 18:10:18,541 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2024-01-14 18:10:20,483 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2417mS.
+2024-01-14 18:10:20,486 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 2mS.
+2024-01-14 18:10:20,502 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
