@@ -951,7 +951,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-      moveTo(-70, -550, -30);
+      //moveTo(-70, -550, -30);
 
 
 
